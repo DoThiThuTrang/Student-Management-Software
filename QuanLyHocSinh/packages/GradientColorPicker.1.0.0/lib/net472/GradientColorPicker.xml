@@ -1,0 +1,1188 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GradientColorPicker</name>
+    </assembly>
+    <members>
+        <member name="T:System.Windows.Forms.GradientColorPicker">
+            <summary>
+            Represents the <see cref="T:System.Windows.Forms.GradientColorPicker" /> Control.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.GradientColorPicker.alwaysShowAddBox">
+            <summary>
+            Defines the alwaysShowAddBox.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.GradientColorPicker.colorItemArrowSize">
+            <summary>
+            Defines the colorItemArrowSize.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.GradientColorPicker.colorItemBlockSize">
+            <summary>
+            Defines the colorItemBlockSize.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.GradientColorPicker.colorItemBorderStyle">
+            <summary>
+            Defines the colorItemBorderStyle.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.GradientColorPicker.colorItemWidth">
+            <summary>
+            Defines the width of color item.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.GradientColorPicker.colors">
+            <summary>
+            Defines the list of colors.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.GradientColorPicker.EE">
+            <summary>
+            Defines the EE.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.GradientColorPicker.EE2">
+            <summary>
+            Defines the EE2.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.GradientColorPicker.EE3">
+            <summary>
+            Defines the EE3.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.GradientColorPicker.EES">
+            <summary>
+            Defines the EES.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.GradientColorPicker.gradientLayout">
+            <summary>
+            Defines the gradientLayout.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.GradientColorPicker.gradientLayoutSize">
+            <summary>
+            Defines the gradientLayoutSize.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.GradientColorPicker.grayscaleWhenDisabled">
+            <summary>
+            Defines the grayscaleWhenDisabled.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.GradientColorPicker.isItemMoved">
+            <summary>
+            Defines the isItemMoved.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.GradientColorPicker.lastColor">
+            <summary>
+            Defines the lastColor.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.GradientColorPicker.lastMouseLocation">
+            <summary>
+            Defines the lastMouseLocation.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.GradientColorPicker.lastY">
+            <summary>
+            Defines the lastY.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.GradientColorPicker.maximumColorCount">
+            <summary>
+            Defines the maximumColorCount.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.GradientColorPicker.minimumColorCount">
+            <summary>
+            Defines the minimumColorCount.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.GradientColorPicker.selectedColor">
+            <summary>
+            Defines the selectedColor.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.GradientColorPicker.showTransparentBackground">
+            <summary>
+            Defines the showTransparentBackground.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.GradientColorPicker.transparentBackgroundColor1">
+            <summary>
+            Defines the transparentBackgroundColor1.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.GradientColorPicker.transparentBackgroundColor2">
+            <summary>
+            Defines the transparentBackgroundColor2.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.GradientColorPicker.transparentBackgroundSize">
+            <summary>
+            Defines the transparentBackgroundSize.
+            </summary>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPicker.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:System.Windows.Forms.GradientColorPicker"/> class.
+            </summary>
+        </member>
+        <member name="E:System.Windows.Forms.GradientColorPicker.ColorAdded">
+            <summary>
+            Occurs when a color is added to the list.
+            </summary>
+        </member>
+        <member name="E:System.Windows.Forms.GradientColorPicker.ColorChanged">
+            <summary>
+            Occurs when the color of the item is changed.
+            </summary>
+        </member>
+        <member name="E:System.Windows.Forms.GradientColorPicker.ColorMoved">
+            <summary>
+            Occurs when a color is moved.
+            </summary>
+        </member>
+        <member name="E:System.Windows.Forms.GradientColorPicker.ColorRemoved">
+            <summary>
+            Occurs when a color is removed from the list.
+            </summary>
+        </member>
+        <member name="E:System.Windows.Forms.GradientColorPicker.ColorSelected">
+            <summary>
+            Occurs when a color is selected.
+            </summary>
+        </member>
+        <member name="E:System.Windows.Forms.GradientColorPicker.LimitExceeded">
+            <summary>
+            Occurs when the allowed limit of the number of colors is exceeded.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Forms.GradientColorPicker.AllowAddColorByClick">
+            <summary>
+            Gets or sets a value indicating whether to allow a new color to be added with the mouse click.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Forms.GradientColorPicker.AllowColorDialog">
+            <summary>
+            Gets or sets a value indicating whether allow to show the color dialog.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Forms.GradientColorPicker.AllowDragOutColor">
+            <summary>
+            Gets or sets a value indicating whether allow to drag out of the colors from the list.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Forms.GradientColorPicker.AllowPickGradientColor">
+            <summary>
+            Gets or sets a value indicating whether to allow the pick color from the gradient.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Forms.GradientColorPicker.AllowToHandleKeys">
+            <summary>
+            Gets or sets a value indicating whether to allow processing of the default keyboard events.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Forms.GradientColorPicker.AllowToHandleMouseWheel">
+            <summary>
+            Gets or sets a value indicating whether to allow processing the mouse wheel event.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Forms.GradientColorPicker.AlwaysShowAddBox">
+            <summary>
+            Gets or sets a value indicating whether to always shows the add box.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Forms.GradientColorPicker.AutoScroll">
+            <summary>
+            Gets or sets a value indicating whether AutoScroll.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Forms.GradientColorPicker.AutoScrollMargin">
+            <summary>
+            Gets or sets the AutoScrollMargin.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Forms.GradientColorPicker.AutoScrollMinSize">
+            <summary>
+            Gets or sets the AutoScrollMinSize.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Forms.GradientColorPicker.AutoSize">
+            <summary>
+            Gets or sets a value indicating whether AutoSize.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Forms.GradientColorPicker.AutoSizeMode">
+            <summary>
+            Gets or sets the AutoSizeMode.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Forms.GradientColorPicker.CanAddColor">
+            <summary>
+            Gets a value indicating whether it is possible to add a new color to the list.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Forms.GradientColorPicker.ColorItemArrowSize">
+            <summary>
+            Gets or sets the arrow size of color item.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Forms.GradientColorPicker.ColorItemBlockSize">
+            <summary>
+            Gets or sets the size of the color item block.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Forms.GradientColorPicker.ColorItemBorderStyle">
+            <summary>
+            Gets or sets the border style of the color item.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Forms.GradientColorPicker.ColorItemWidth">
+            <summary>
+            Gets or sets the width of the color item.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Forms.GradientColorPicker.Colors">
+            <summary>
+            Gets the list of colors.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Forms.GradientColorPicker.Cursor">
+            <summary>
+            Gets or sets the cursor that will be displayed when the mouse is over this control.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Forms.GradientColorPicker.Font">
+            <summary>
+            Gets or sets the font.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Forms.GradientColorPicker.ForeColor">
+            <summary>
+            Gets or sets the fore color.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Forms.GradientColorPicker.GradientLayout">
+            <summary>
+            Gets or sets the gradient layout.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Forms.GradientColorPicker.GradientLayoutSize">
+            <summary>
+            Gets or sets the size of the gradient.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Forms.GradientColorPicker.GrayscaleWhenDisabled">
+            <summary>
+            Gets or sets a value indicating whether to use grayscale when the element is disabled.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Forms.GradientColorPicker.ImeMode">
+            <summary>
+            Gets or sets the ImeMode.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Forms.GradientColorPicker.MaximumColorCount">
+            <summary>
+            Gets or sets the maximum number of colors in the list.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Forms.GradientColorPicker.MinimumColorCount">
+            <summary>
+            Gets or sets the minimum number of colors in the list.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Forms.GradientColorPicker.NotifyOfExceedingLimit">
+            <summary>
+            Gets or sets a value indicating whether the notification should be displayed when exceeding the allowed number of colors.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Forms.GradientColorPicker.RightToLeft">
+            <summary>
+            Gets or sets RightToLeft. This is used for international applications where the language is written from RightToLeft. When this property is true, control placement and text will be from right to left.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Forms.GradientColorPicker.SelectedColor">
+            <summary>
+            Gets or sets the selected color.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Forms.GradientColorPicker.ShowTransparentBackground">
+            <summary>
+            Gets or sets a value indicating whether to show the image that represents the transparent color.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Forms.GradientColorPicker.Size">
+            <summary>
+            Gets or sets the size of this control is in pixels.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Forms.GradientColorPicker.TransparentBackgroundColor1">
+            <summary>
+            Gets or sets the first color of the image that represents the transparent color.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Forms.GradientColorPicker.TransparentBackgroundColor2">
+            <summary>
+            Gets or sets the second color of the image that represents the transparent color.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Forms.GradientColorPicker.TransparentBackgroundSize">
+            <summary>
+            Gets or sets the cell size of the transparent background image.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Forms.GradientColorPicker.ColorItemHeight">
+            <summary>
+            Gets or sets height of the color item.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Forms.GradientColorPicker.ColorRectangle">
+            <summary>
+            Gets or sets rectangle of the color list.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Forms.GradientColorPicker.GradientRectangle">
+            <summary>
+            Gets or sets rectangle of the gradient.
+            </summary>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPicker.AddColor(System.Drawing.Color,System.Single)">
+            <summary>
+            Adds new color to the list.
+            </summary>
+            <param name="color">The <see cref="T:System.Drawing.Color"/> instance to add.</param>
+            <param name="position">The color position. The value is from <c>0</c> to <c>1</c> (0-100%).</param>
+            <returns>Returns the current instance of the <see cref="T:System.Windows.Forms.GradientColorPicker"/> class.</returns>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPicker.Clear">
+            <summary>
+            Removes all colors from the list.
+            </summary>
+            <returns>Returns current instance of the <see cref="T:System.Windows.Forms.GradientColorPicker"/> class.</returns>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPicker.DrawLinearGradient(System.Drawing.Graphics,System.Drawing.Rectangle)">
+            <summary>
+            Draws linear gradient through the specified <see cref="T:System.Drawing.Graphics"/> instance.
+            </summary>
+            <param name="graphics">The <see cref="T:System.Drawing.Graphics"/> instance.</param>
+            <param name="targetBounds">The bounds within which the gradient is rendered.</param>
+            <returns>Returns the current instance of the <see cref="T:System.Windows.Forms.GradientColorPicker"/> class.</returns>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPicker.DrawLinearGradient(System.Drawing.Graphics,System.Drawing.Rectangle,System.Single)">
+            <summary>
+            Draws linear gradient through the specified <see cref="T:System.Drawing.Graphics"/> instance.
+            </summary>
+            <param name="graphics">The <see cref="T:System.Drawing.Graphics"/> instance.</param>
+            <param name="targetBounds">The bounds within which the gradient is rendered.</param>
+            <param name="angle">The tilt angle.</param>
+            <returns>Returns the current instance of the <see cref="T:System.Windows.Forms.GradientColorPicker"/> class.</returns>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPicker.DrawLinearGradientToImage(System.Drawing.Image)">
+            <summary>
+            Draws linear gradient to image.
+            </summary>
+            <param name="image">The <see cref="T:System.Drawing.Image"/> instance.</param>
+            <returns>Returns the current instance of the <see cref="T:System.Windows.Forms.GradientColorPicker"/> class.</returns>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPicker.DrawLinearGradientToImage(System.Drawing.Image,System.Single)">
+            <summary>
+            Draws linear gradient to image.
+            </summary>
+            <param name="image">The <see cref="T:System.Drawing.Image"/> instance.</param>
+            <param name="angle">The tilt angle.</param>
+            <returns>Returns the current instance of the <see cref="T:System.Windows.Forms.GradientColorPicker"/> class.</returns>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPicker.DrawLinearGradientToImage(System.Drawing.Image,System.Drawing.Rectangle)">
+            <summary>
+            Draws linear gradient to image.
+            </summary>
+            <param name="image">The <see cref="T:System.Drawing.Image"/> instance.</param>
+            <param name="targetBounds">The bounds within which the gradient is rendered.</param>
+            <returns>Returns the current instance of the <see cref="T:System.Windows.Forms.GradientColorPicker"/> class.</returns>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPicker.DrawLinearGradientToImage(System.Drawing.Image,System.Drawing.Rectangle,System.Single)">
+            <summary>
+            Draws linear gradient to image.
+            </summary>
+            <param name="image">The <see cref="T:System.Drawing.Image"/> instance.</param>
+            <param name="targetBounds">The bounds within which the gradient is rendered.</param>
+            <param name="angle">The tilt angle.</param>
+            <returns>Returns the current instance of the <see cref="T:System.Windows.Forms.GradientColorPicker"/> class.</returns>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPicker.DrawRadialGradient(System.Drawing.Graphics,System.Drawing.Rectangle,System.Single)">
+            <summary>
+            Draws radial gradient through the specified <see cref="T:System.Drawing.Graphics"/> instance.
+            </summary>
+            <param name="graphics">The <see cref="T:System.Drawing.Graphics"/> instance.</param>
+            <param name="targetBounds">The bounds within which the gradient is rendered.</param>
+            <param name="centerPoint">The center point.</param>
+            <returns>Returns the current instance of the <see cref="T:System.Windows.Forms.GradientColorPicker"/> class.</returns>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPicker.DrawRadialGradient(System.Drawing.Graphics,System.Drawing.Rectangle,System.Single,System.Single)">
+            <summary>
+            Draws radial gradient through the specified <see cref="T:System.Drawing.Graphics"/> instance.
+            </summary>
+            <param name="graphics">The <see cref="T:System.Drawing.Graphics"/> instance.</param>
+            <param name="targetBounds">The bounds within which the gradient is rendered.</param>
+            <param name="centerX">The position of the center point along the X axis.</param>
+            <param name="centerY">The position of the center point along the Y axis.</param>
+            <returns>Returns the current instance of the <see cref="T:System.Windows.Forms.GradientColorPicker"/> class.</returns>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPicker.DrawRadialGradient(System.Drawing.Graphics,System.Drawing.Rectangle,System.Drawing.PointF)">
+            <summary>
+            Draws radial gradient through the specified <see cref="T:System.Drawing.Graphics"/> instance.
+            </summary>
+            <param name="graphics">The <see cref="T:System.Drawing.Graphics"/> instance.</param>
+            <param name="targetBounds">The bounds within which the gradient is rendered.</param>
+            <param name="centerPoint">The center point.</param>
+            <returns>Returns the current instance of the <see cref="T:System.Windows.Forms.GradientColorPicker"/> class.</returns>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPicker.DrawRadialGradientToImage(System.Drawing.Image,System.Single)">
+            <summary>
+            Draws radial gradient to image.
+            </summary>
+            <param name="image">The <see cref="T:System.Drawing.Image"/> instance.</param>
+            <param name="centerPoint">The center point.</param>
+            <returns>Returns the current instance of the <see cref="T:System.Windows.Forms.GradientColorPicker"/> class.</returns>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPicker.DrawRadialGradientToImage(System.Drawing.Image,System.Single,System.Single)">
+            <summary>
+            Draws radial gradient to image.
+            </summary>
+            <param name="image">The <see cref="T:System.Drawing.Image"/> instance.</param>
+            <param name="centerX">The position of the center point along the X axis.</param>
+            <param name="centerY">The position of the center point along the Y axis.</param>
+            <returns>Returns the current instance of the <see cref="T:System.Windows.Forms.GradientColorPicker"/> class.</returns>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPicker.DrawRadialGradientToImage(System.Drawing.Image,System.Drawing.Rectangle,System.Single)">
+            <summary>
+            Draws radial gradient to image.
+            </summary>
+            <param name="image">The <see cref="T:System.Drawing.Image"/> instance.</param>
+            <param name="targetBounds">The bounds within which the gradient is rendered.</param>
+            <param name="centerPoint">The center point.</param>
+            <returns>Returns the current instance of the <see cref="T:System.Windows.Forms.GradientColorPicker"/> class.</returns>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPicker.DrawRadialGradientToImage(System.Drawing.Image,System.Drawing.Rectangle,System.Single,System.Single)">
+            <summary>
+            Draws radial gradient to image.
+            </summary>
+            <param name="image">The <see cref="T:System.Drawing.Image"/> instance.</param>
+            <param name="targetBounds">The bounds within which the gradient is rendered.</param>
+            <param name="centerX">The position of the center point along the X axis.</param>
+            <param name="centerY">The position of the center point along the Y axis.</param>
+            <returns>Returns the current instance of the <see cref="T:System.Windows.Forms.GradientColorPicker"/> class.</returns>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPicker.DrawRadialGradientToImage(System.Drawing.Image,System.Drawing.Rectangle,System.Drawing.PointF)">
+            <summary>
+            Draws radial gradient to image.
+            </summary>
+            <param name="image">The <see cref="T:System.Drawing.Image"/> instance.</param>
+            <param name="targetBounds">The bounds within which the gradient is rendered.</param>
+            <param name="centerPoint">The center point.</param>
+            <returns>Returns the current instance of the <see cref="T:System.Windows.Forms.GradientColorPicker"/> class.</returns>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPicker.EvenlyAlignColors">
+            <summary>
+            Aligns the colors evenly.
+            </summary>
+            <returns>Returns the current instance of the <see cref="T:System.Windows.Forms.GradientColorPicker"/> class.</returns>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPicker.GetNextColor(System.Windows.Forms.GradientColorPickerItem)">
+            <summary>
+            Gets next color.
+            </summary>
+            <param name="color">The color item relative to which the search will be performed.</param>
+            <returns>Returns instance of the <see cref="T:System.Windows.Forms.GradientColorPickerItem"/> class.</returns>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPicker.InvertColors">
+            <summary>
+            Inverts colors.
+            </summary>
+            <returns>Returns the current instance of the <see cref="T:System.Windows.Forms.GradientColorPicker"/> class.</returns>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPicker.Randomize(System.Boolean,System.Boolean)">
+            <summary>
+            Randomizes the colors in the list.
+            </summary>
+            <param name="changePosition">Randomize position.</param>
+            <param name="changeColor">Randomize color.</param>
+            <returns>Returns the current instance of the <see cref="T:System.Windows.Forms.GradientColorPicker"/> class.</returns>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPicker.RemoveColor(System.Windows.Forms.GradientColorPickerItem)">
+            <summary>
+            Removes color from list.
+            </summary>
+            <param name="item">The <see cref="T:System.Windows.Forms.GradientColorPickerItem"/> instance to remove.</param>
+            <returns>Returns the current instance of the <see cref="T:System.Windows.Forms.GradientColorPicker"/> class.</returns>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPicker.RemoveSelectedColor">
+            <summary>
+            Removes selected color (<see cref="P:System.Windows.Forms.GradientColorPicker.SelectedColor"/>).
+            </summary>
+            <returns>Returns the current instance of the <see cref="T:System.Windows.Forms.GradientColorPicker"/> class.</returns>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPicker.Reverse">
+            <summary>
+            Reverses colors in the list.
+            </summary>
+            <returns>Returns the current instance of the <see cref="T:System.Windows.Forms.GradientColorPicker"/> class.</returns>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPicker.SelectNextColor">
+            <summary>
+            Selects next color.
+            </summary>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPicker.OnEnabledChanged(System.EventArgs)">
+            <summary>
+            Raises the <see cref="E:System.Windows.Forms.Control.EnabledChanged"/> event.
+            </summary>
+            <param name="e">An <see cref="T:System.EventArgs"/> that contains the event data.</param>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPicker.OnKeyDown(System.Windows.Forms.KeyEventArgs)">
+            <summary>
+            Raises the <see cref="E:System.Windows.Forms.Control.KeyDown"/> event.
+            </summary>
+            <param name="e">An <see cref="T:System.Windows.Forms.KeyEventArgs"/> that contains the event data.</param>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPicker.OnLoad(System.EventArgs)">
+            <summary>
+            Raises the <see cref="E:System.Windows.Forms.UserControl.Load"/> event.
+            </summary>
+            <param name="e">An <see cref="T:System.EventArgs"/> that contains the event data.</param>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPicker.OnMouseDoubleClick(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Raises the <see cref="E:System.Windows.Forms.Control.MouseDoubleClick"/> event.
+            </summary>
+            <param name="e">An <see cref="T:System.Windows.Forms.MouseEventArgs"/> that contains the event data.</param>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPicker.OnMouseDown(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Raises the <see cref="E:System.Windows.Forms.Control.MouseDown"/> event.
+            </summary>
+            <param name="e">An <see cref="T:System.Windows.Forms.MouseEventArgs"/> that contains the event data.</param>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPicker.OnMouseMove(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Raises the <see cref="E:System.Windows.Forms.Control.MouseMove"/> event.
+            </summary>
+            <param name="e">An <see cref="T:System.Windows.Forms.MouseEventArgs"/> that contains the event data.</param>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPicker.OnMouseUp(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Raises the <see cref="E:System.Windows.Forms.Control.MouseUp"/> event.
+            </summary>
+            <param name="e">An <see cref="T:System.Windows.Forms.MouseEventArgs"/> that contains the event data.</param>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPicker.OnMouseWheel(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Raises the <see cref="E:System.Windows.Forms.Control.MouseWheel" /> event.
+            </summary>
+            <param name="e">An <see cref="T:System.Windows.Forms.MouseEventArgs"/> that contains the event data.</param>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPicker.OnPaddingChanged(System.EventArgs)">
+            <summary>
+            Raises the <see cref="E:System.Windows.Forms.Control.PaddingChanged"/> event.
+            </summary>
+            <param name="e">An <see cref="T:System.EventArgs"/> that contains the event data.</param>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPicker.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            Raises the <see cref="E:System.Windows.Forms.Control.Paint"/> event.
+            </summary>
+            <param name="e">An <see cref="T:System.Windows.Forms.PaintEventArgs"/> that contains the event data.</param>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPicker.OnResize(System.EventArgs)">
+            <summary>
+            Raises the <see cref="E:System.Windows.Forms.Control.Resize"/> event.
+            </summary>
+            <param name="e">An <see cref="T:System.EventArgs"/> that contains the event data.</param>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPicker.ProcessCmdKey(System.Windows.Forms.Message@,System.Windows.Forms.Keys)">
+            <summary>
+            Processes a command key.
+            </summary>
+            <param name="msg">A <see cref="T:System.Windows.Forms.Message"/>, passed by reference, that represents the window message to process.</param>
+            <param name="keyData">One of the <see cref="T:System.Windows.Forms.Keys"/> values that represents the key to process.</param>
+            <returns><c>true</c> if the character was processed by the control; otherwise, <c>false</c>.</returns>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPicker.AddColor(System.Int32,System.Drawing.Color)">
+            <summary>
+            Adds color to list.
+            </summary>
+            <param name="x">The The color position along the X axis.</param>
+            <param name="color">The <see cref="T:System.Drawing.Color"/> to add.</param>
+            <returns>Returns <c>true</c> if the color has been added to the list; otherwise, <c>false</c>.</returns>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPicker.AddRandomColors(System.Int32)">
+            <summary>
+            Adds random colors to the list.
+            </summary>
+            <param name="count">The count of colors to add.</param>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPicker.CopySelectedColorToClipboard">
+            <summary>
+            Copies <see cref="P:System.Windows.Forms.GradientColorPicker.SelectedColor"/> to clipboard.
+            </summary>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPicker.CutSelectedColorToClipboard">
+            <summary>
+            Cut <see cref="P:System.Windows.Forms.GradientColorPicker.SelectedColor"/> from list to clipboard.
+            </summary>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPicker.DrawAddBox(System.Drawing.Graphics)">
+            <summary>
+            Draws empty state.
+            </summary>
+            <param name="g">The <see cref="T:System.Drawing.Graphics"/> instance.</param>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPicker.DrawColor(System.Drawing.Graphics,System.Windows.Forms.GradientColorPickerItem,System.Int32,System.Int32,System.Int32,System.Int32,System.Single,System.Single)">
+            <summary>
+            Draws single color item.
+            </summary>
+            <param name="g">The <see cref="T:System.Drawing.Graphics"/> instance.</param>
+            <param name="item">The <see cref="T:System.Windows.Forms.GradientColorPickerItem"/> to draw.</param>
+            <param name="x">The color position along the X axis.</param>
+            <param name="y">The color position along the Y axis.</param>
+            <param name="arrowWidth">The width of array.</param>
+            <param name="arrowHeight">The height of array.</param>
+            <param name="itemWidth">The color item width.</param>
+            <param name="itemHeight">The color item height.</param>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPicker.DrawColors(System.Drawing.Graphics)">
+            <summary>
+            Draws colors list.
+            </summary>
+            <param name="g">The <see cref="T:System.Drawing.Graphics"/> instance.</param>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPicker.DrawGradient(System.Drawing.Graphics)">
+            <summary>
+            Draws gradient.
+            </summary>
+            <param name="g">The <see cref="T:System.Drawing.Graphics"/> instance.</param>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPicker.MoveItem(System.Drawing.Point)">
+            <summary>
+            Moves the <see cref="P:System.Windows.Forms.GradientColorPicker.SelectedColor"/>.
+            </summary>
+            <param name="location">The <see cref="T:System.Drawing.Point"/> to move.</param>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPicker.PasteColorFromClipboard">
+            <summary>
+            Inserts color from clipboard into the list.
+            </summary>
+            <returns>In case of success, it returns <c>true</c>; otherwise, <c>false</c>.</returns>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPicker.SelectNextColor(System.Boolean)">
+            <summary>
+            Selects next color.
+            </summary>
+            <param name="backward">Reverse mode.</param>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPicker.ShowColorDialog">
+            <summary>
+            Shows color dialog for the <see cref="P:System.Windows.Forms.GradientColorPicker.SelectedColor"/>.
+            </summary>
+            <remarks>
+            <see cref="P:System.Windows.Forms.GradientColorPicker.SelectedColor"/> cannot be <c>null</c>.
+            </remarks>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPicker.TryPlay">
+            <summary>
+            Plays color list.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.GradientColorPicker.components">
+            <summary>
+            Обязательная переменная конструктора.
+            </summary>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPicker.Dispose(System.Boolean)">
+            <summary>
+            Освободить все используемые ресурсы.
+            </summary>
+            <param name="disposing">истинно, если управляемый ресурс должен быть удален; иначе ложно.</param>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPicker.InitializeComponent">
+            <summary>
+            Требуемый метод для поддержки конструктора — не изменяйте 
+            содержимое этого метода с помощью редактора кода.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.GradientColorPickerAbout.inTimerCallback">
+            <summary>
+            Indicates that the task is being processed by the timer.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.GradientColorPickerAbout.random">
+            <summary>
+            Random number generator.
+            </summary>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPickerAbout.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:System.Windows.Forms.GradientColorPickerAbout"/> class.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.GradientColorPickerAbout.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPickerAbout.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPickerAbout.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:System.Windows.Forms.GradientColorPickerItem">
+            <summary>
+            Represents the color item.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.GradientColorPickerItem.DEFAULT_HEIGHT">
+            <summary>
+            Defines the DEFAULT_HEIGHT.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.GradientColorPickerItem.DEFAULT_WIDTH">
+            <summary>
+            Defines the DEFAULT_WIDTH.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.GradientColorPickerItem.color">
+            <summary>
+            Defines the color.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.GradientColorPickerItem.offsetX">
+            <summary>
+            Defines the offsetX.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.GradientColorPickerItem.offsetY">
+            <summary>
+            Defines the offsetY.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.GradientColorPickerItem.owner">
+            <summary>
+            Defines the owner.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.GradientColorPickerItem.position">
+            <summary>
+            Defines the position.
+            </summary>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPickerItem.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:System.Windows.Forms.GradientColorPickerItem"/> class.
+            </summary>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPickerItem.#ctor(System.Windows.Forms.GradientColorPicker,System.Drawing.Color)">
+            <summary>
+            Initializes a new instance of the <see cref="T:System.Windows.Forms.GradientColorPickerItem"/> class.
+            </summary>
+            <param name="owner">The <see cref="T:System.Windows.Forms.GradientColorPicker"/> instance.</param>
+            <param name="color">The item <see cref="P:System.Windows.Forms.GradientColorPickerItem.Color"/>.</param>
+        </member>
+        <member name="E:System.Windows.Forms.GradientColorPickerItem.ColorChanged">
+            <summary>
+            Occurs when the color of the item is changed.
+            </summary>
+        </member>
+        <member name="E:System.Windows.Forms.GradientColorPickerItem.PositionChanged">
+            <summary>
+            Occurs when the position of the item is changed.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Forms.GradientColorPickerItem.Color">
+            <summary>
+            Gets or sets the color.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Forms.GradientColorPickerItem.Owner">
+            <summary>
+            Gets the owner of the item.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Forms.GradientColorPickerItem.Position">
+            <summary>
+            Gets or sets the position. Value from 0 to 1.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Forms.GradientColorPickerItem.Tag">
+            <summary>
+            Gets or sets the Tag
+            </summary>
+        </member>
+        <member name="P:System.Windows.Forms.GradientColorPickerItem.Active">
+            <summary>
+            Gets or sets a value indicating whether Active
+            </summary>
+        </member>
+        <member name="P:System.Windows.Forms.GradientColorPickerItem.Height">
+            <summary>
+            Gets or sets the Height
+            </summary>
+        </member>
+        <member name="P:System.Windows.Forms.GradientColorPickerItem.OffsetX">
+            <summary>
+            Gets or sets the OffsetX
+            </summary>
+        </member>
+        <member name="P:System.Windows.Forms.GradientColorPickerItem.OffsetY">
+            <summary>
+            Gets or sets the OffsetY
+            </summary>
+        </member>
+        <member name="P:System.Windows.Forms.GradientColorPickerItem.Width">
+            <summary>
+            Gets or sets the Width
+            </summary>
+        </member>
+        <member name="P:System.Windows.Forms.GradientColorPickerItem.X">
+            <summary>
+            Gets the X.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Forms.GradientColorPickerItem.Y">
+            <summary>
+            Gets the Y.
+            </summary>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPickerItem.SetPosition(System.Int32)">
+            <summary>
+            Sets the position by X location.
+            </summary>
+            <param name="x">The coordinates of point X.</param>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPickerItem.SetPosition(System.Int32,System.Int32)">
+            <summary>
+            Sets the position by X and Y location.
+            </summary>
+            <param name="x">The coordinates of point X.</param>
+            <param name="y">The coordinates of point Y.</param>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPickerItem.OnPositionChanged(System.Boolean)">
+            <summary>
+            Changes X and raises the <see cref="E:System.Windows.Forms.GradientColorPickerItem.PositionChanged"/> event.
+            </summary>
+            <param name="invokeEvent">Indicates the need to call the <see cref="E:System.Windows.Forms.GradientColorPickerItem.PositionChanged"/> event.</param>
+        </member>
+        <member name="T:System.Windows.Forms.GradientColorPickerItemCollection">
+            <summary>
+            Represents the list of color items.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.GradientColorPickerItemCollection.items">
+            <summary>
+            Defines color items.
+            </summary>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPickerItemCollection.#ctor(System.Windows.Forms.GradientColorPicker)">
+            <summary>
+            Initializes a new instance of the <see cref="T:System.Windows.Forms.GradientColorPickerItemCollection"/> class.
+            </summary>
+            <param name="owner">The <see cref="T:System.Windows.Forms.GradientColorPicker"/></param>
+        </member>
+        <member name="E:System.Windows.Forms.GradientColorPickerItemCollection.ColorChanged">
+            <summary>
+            Occurs when the color of the item is changed.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Forms.GradientColorPickerItemCollection.Count">
+            <summary>
+            Gets the number of items.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Forms.GradientColorPickerItemCollection.IsFixedSize">
+            <summary>
+            Gets a value indicating whether the list has a fixed size.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Forms.GradientColorPickerItemCollection.IsReadOnly">
+            <summary>
+            Gets a value indicating whether the list is read-only.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Forms.GradientColorPickerItemCollection.IsSynchronized">
+            <summary>
+            Gets a value indicating whether access to the collection is synchronized (thread safe).
+            </summary>
+        </member>
+        <member name="P:System.Windows.Forms.GradientColorPickerItemCollection.Owner">
+            <summary>
+            Gets the owner of the list.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Forms.GradientColorPickerItemCollection.SyncRoot">
+            <summary>
+            Gets an object that can be used to synchronize access to the collection.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Forms.GradientColorPickerItemCollection.System#Collections#IList#Item(System.Int32)">
+            <summary>
+            Gets or sets the element at the specified index.
+            </summary>
+            <param name="index">The zero-based index of the element to get or set.</param>
+            <returns>The element at the specified index.</returns>
+        </member>
+        <member name="P:System.Windows.Forms.GradientColorPickerItemCollection.Item(System.Int32)">
+            <summary>
+            Gets or sets the element at the specified index.
+            </summary>
+            <param name="index">The zero-based index of the element to get or set.</param>
+            <returns>The element at the specified index.</returns>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPickerItemCollection.ActiveColorByLocation(System.Drawing.Point)">
+            <summary>
+            Activates color by location.
+            </summary>
+            <param name="location">Location for color search.</param>
+            <returns>The <see cref="T:System.Windows.Forms.GradientColorPickerItem"/> instance.</returns>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPickerItemCollection.Add(System.Windows.Forms.GradientColorPickerItem)">
+            <summary>
+            Adds a color item to the list.
+            </summary>
+            <param name="item">The <see cref="T:System.Windows.Forms.GradientColorPickerItem"/> instance to add to the list.</param>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPickerItemCollection.Add(System.Object)">
+            <summary>
+            Adds a color item to the list.
+            </summary>
+            <param name="value">The <see cref="T:System.Windows.Forms.GradientColorPickerItem"/> instance to add to the list.</param>
+            <returns>The position into which the new element was inserted, or -1 to indicate that the item was not inserted into the collection.</returns>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPickerItemCollection.Clear">
+            <summary>
+            Removes all items from the list.
+            </summary>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPickerItemCollection.Contains(System.Windows.Forms.GradientColorPickerItem)">
+            <summary>
+            Determines whether the list contains a specific color item.
+            </summary>
+            <param name="item">The <see cref="T:System.Windows.Forms.GradientColorPickerItem"/> instance to locate in the list.</param>
+            <returns><c>true</c> if the <see cref="T:System.Windows.Forms.GradientColorPickerItem"/> is found in the list; otherwise, <c>false</c>.</returns>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPickerItemCollection.Contains(System.Object)">
+            <summary>
+            Determines whether the list contains a specific color item.
+            </summary>
+            <param name="value">The <see cref="T:System.Windows.Forms.GradientColorPickerItem"/> instance to locate in the list.</param>
+            <returns><c>true</c> if the <see cref="T:System.Windows.Forms.GradientColorPickerItem"/> is found in the list; otherwise, <c>false</c>.</returns>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPickerItemCollection.CopyTo(System.Windows.Forms.GradientColorPickerItem[],System.Int32)">
+            <summary>
+            Copies the colors of the list to an Array, starting at a particular Array index.
+            </summary>
+            <param name="array">The one-dimensional Array that is the destination of the elements copied from ICollection. The Array must have zero-based indexing.</param>
+            <param name="arrayIndex">The zero-based index in array at which copying begins.</param>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPickerItemCollection.CopyTo(System.Array,System.Int32)">
+            <summary>
+            Copies the colors of the list to an Array, starting at a particular Array index.
+            </summary>
+            <param name="array">The one-dimensional Array that is the destination of the elements copied from ICollection. The Array must have zero-based indexing.</param>
+            <param name="index">The zero-based index in array at which copying begins.</param>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPickerItemCollection.GetColorBlend">
+            <summary>
+            Returns <see cref="T:System.Drawing.Drawing2D.ColorBlend"/> of the current list.
+            </summary>
+            <returns>The <see cref="T:System.Drawing.Drawing2D.ColorBlend"/> instance.</returns>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPickerItemCollection.GetColors">
+            <summary>
+            Returns array of <see cref="T:System.Drawing.Color"/> of the current list.
+            </summary>
+            <returns>The <see cref="T:System.Drawing.Color"/> array.</returns>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPickerItemCollection.GetEnumerator">
+            <summary>
+            Returns an enumerator that iterates through a collection.
+            </summary>
+            <returns>The <see cref="T:System.Collections.Generic.IEnumerator`1"/>.</returns>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPickerItemCollection.System#Collections#IEnumerable#GetEnumerator">
+            <summary>
+            Returns an enumerator that iterates through a collection.
+            </summary>
+            <returns>The <see cref="T:System.Collections.IEnumerator"/>.</returns>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPickerItemCollection.GetPositions">
+            <summary>
+            Returns positions of colors.
+            </summary>
+            <returns>The <see cref="T:System.Single"/> array.</returns>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPickerItemCollection.HasColor(System.Int32,System.Int32)">
+            <summary>
+            Returns true if there is a color in the specified location.
+            </summary>
+            <param name="x1">The beginning of the range.</param>
+            <param name="x2">End of range.</param>
+            <returns>Returns <c>true</c> if there is at least one color in the specified range; otherwise, <c>false</c>.</returns>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPickerItemCollection.IndexOf(System.Windows.Forms.GradientColorPickerItem)">
+            <summary>
+            Determines the index of a specific item in the list.
+            </summary>
+            <param name="item">The <see cref="T:System.Windows.Forms.GradientColorPickerItem"/> to locate in the list.</param>
+            <returns>The index of value if found in the list; otherwise, -1.</returns>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPickerItemCollection.IndexOf(System.Object)">
+            <summary>
+            Determines the index of a specific item in the list.
+            </summary>
+            <param name="value">The <see cref="T:System.Windows.Forms.GradientColorPickerItem"/> to locate in the list.</param>
+            <returns>The index of value if found in the list; otherwise, -1.</returns>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPickerItemCollection.Insert(System.Int32,System.Windows.Forms.GradientColorPickerItem)">
+            <summary>
+            Inserts an color to the list at the specified index.
+            </summary>
+            <param name="index">The zero-based index at which <paramref name="item"/> should be inserted.</param>
+            <param name="item">The <see cref="T:System.Windows.Forms.GradientColorPickerItem"/> to insert into the list.</param>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPickerItemCollection.Insert(System.Int32,System.Object)">
+            <summary>
+            Inserts an color to the list at the specified index.
+            </summary>
+            <param name="index">The zero-based index at which <paramref name="value"/> should be inserted.</param>
+            <param name="value">The <see cref="T:System.Windows.Forms.GradientColorPickerItem"/> to insert into the list.</param>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPickerItemCollection.Remove(System.Windows.Forms.GradientColorPickerItem)">
+            <summary>
+            Removes the first occurrence of a specific object from the list.
+            </summary>
+            <param name="item">The <see cref="T:System.Windows.Forms.GradientColorPickerItem"/> instance to remove.</param>
+            <returns><c>true</c> if color item is removed; otherwise, <c>false</c>.</returns>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPickerItemCollection.System#Collections#Generic#ICollection{System#Windows#Forms#GradientColorPickerItem}#Remove(System.Windows.Forms.GradientColorPickerItem)">
+            <summary>
+            Removes the first occurrence of a specific object from the list.
+            </summary>
+            <param name="item">The <see cref="T:System.Windows.Forms.GradientColorPickerItem"/> instance to remove.</param>
+            <returns><c>true</c> if color item is removed; otherwise, <c>false</c>.</returns>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPickerItemCollection.Remove(System.Object)">
+            <summary>
+            Removes the first occurrence of a specific object from the list.
+            </summary>
+            <param name="value">The <see cref="T:System.Windows.Forms.GradientColorPickerItem"/> instance to remove.</param>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPickerItemCollection.RemoveAt(System.Int32)">
+            <summary>
+            Removes the list item at the specified index.
+            </summary>
+            <param name="index">The zero-based index of the item to remove.</param>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPickerItemCollection.RemoveRange(System.Int32,System.Int32)">
+            <summary>
+            Removes a range of elements from the list.
+            </summary>
+            <param name="index">The zero-based starting index of the range of elements to remove.</param>
+            <param name="count">The number of elements to remove.</param>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPickerItemCollection.Sort">
+            <summary>
+            Sorts items in the list by location.
+            </summary>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPickerItemCollection.ActiveColor(System.Windows.Forms.GradientColorPickerItem)">
+            <summary>
+            Sets active state of the color item.
+            </summary>
+            <param name="color">The <see cref="T:System.Windows.Forms.GradientColorPickerItem"/> instance to set the active state.</param>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPickerItemCollection.GetColors(System.Linq.IOrderedEnumerable{System.Windows.Forms.GradientColorPickerItem})">
+            <summary>
+            Returns <see cref="T:System.Drawing.Color"/> array of the current list.
+            </summary>
+            <param name="sortedItems">The sorted list.</param>
+            <returns>The <see cref="T:System.Drawing.Color"/> array of the current list.</returns>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPickerItemCollection.GetPositions(System.Linq.IOrderedEnumerable{System.Windows.Forms.GradientColorPickerItem})">
+            <summary>
+            Returns positions of colors.
+            </summary>
+            <param name="sortedItems">Sorted colors.</param>
+            <returns>Positions list.</returns>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPickerItemCollection.IsGradientColorPickerItem(System.Object)">
+            <summary>
+            The IsGradientColorPickerItem
+            </summary>
+            <param name="value">The <see cref="T:System.Object"/></param>
+            <returns>The <see cref="T:System.Boolean"/></returns>
+        </member>
+        <member name="T:System.Windows.Forms.GradientColorPickerLayout">
+            <summary>
+            List of mode for drawing a gradient.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.GradientColorPickerLayout.None">
+            <summary>
+            Without drawing a gradient.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.GradientColorPickerLayout.Background">
+            <summary>
+            Fill the background of the control.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.GradientColorPickerLayout.Percent">
+            <summary>
+            The relative size of the gradient.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.GradientColorPickerLayout.FixedSize">
+            <summary>
+            The fixed size of the gradient.
+            </summary>
+        </member>
+        <member name="T:System.Windows.Forms.GradientColorPercentValueFloat">
+            <summary>
+            Defines the <see cref="T:System.Windows.Forms.GradientColorPercentValueFloat" />
+            </summary>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPercentValueFloat.CanConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Type)">
+            <summary>
+            Determines if this converter can convert an object in the given source type to the native type of the converter.
+            </summary>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPercentValueFloat.ConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object)">
+            <summary>
+            Converts the given object to the converter's native type.
+            </summary>
+        </member>
+        <member name="M:System.Windows.Forms.GradientColorPercentValueFloat.ConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type)">
+            <summary>
+            Converts the given object to another type.  The most common types to convert
+            are to and from a string object. The default implementation will make a call
+            to ToString on the object if the object is valid and if the destination
+            type is string.  If this cannot convert to the desitnation type, this will
+            throw a <see cref="T:System.NotSupportedException"/>.
+            </summary>
+        </member>
+    </members>
+</doc>

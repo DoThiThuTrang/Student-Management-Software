@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b2f7f595089344b6a0cf07c4052f27fe" Name="Diagram1">
+        <EntityTypeShape EntityType="QLHSModel.BANGDIEMMON" Width="1.5" PointX="8.25" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLHSModel.CHUONGTRINHHOC" Width="1.5" PointX="3.75" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLHSModel.HOCKY" Width="1.5" PointX="0.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLHSModel.HOCSINH" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLHSModel.KHOI" Width="1.5" PointX="1.5" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLHSModel.LOAIHINHKIEMTRA" Width="1.5" PointX="8.25" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLHSModel.LOP" Width="1.5" PointX="0.75" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLHSModel.MONHOC" Width="1.5" PointX="0.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLHSModel.QUATRINHHOC" Width="1.5" PointX="3" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLHSModel.THAMSO" Width="1.5" PointX="2.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLHSModel.TONGKETHOCKY" Width="1.5" PointX="6" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLHSModel.TONGKETMON" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLHSModel.CT_BANGDIEMMON" Width="1.5" PointX="10.5" PointY="5" IsExpanded="true" />
+        <AssociationConnector Association="QLHSModel.FK__BANGDIEMM__MAQTH__38996AB5" ManuallyRouted="false" />
+        <AssociationConnector Association="QLHSModel.FK__BANGDIEMMO__MAMH__37A5467C" ManuallyRouted="false" />
+        <AssociationConnector Association="QLHSModel.FK__CT_BANGDI__MABDM__4222D4EF" ManuallyRouted="false" />
+        <AssociationConnector Association="QLHSModel.fk_mabdm_ctbdm" ManuallyRouted="false" />
+        <AssociationConnector Association="QLHSModel.fk_maqth_bdm" ManuallyRouted="false" />
+        <AssociationConnector Association="QLHSModel.FK__CHUONGTRI__MAKHO__33D4B598" ManuallyRouted="false" />
+        <AssociationConnector Association="QLHSModel.FK__CHUONGTRIN__MAMH__34C8D9D1" ManuallyRouted="false" />
+        <AssociationConnector Association="QLHSModel.FK__QUATRINHHO__MAHK__30F848ED" ManuallyRouted="false" />
+        <AssociationConnector Association="QLHSModel.FK__TONGKETHOC__MAHK__3C69FB99" ManuallyRouted="false" />
+        <AssociationConnector Association="QLHSModel.FK__TONGKETMON__MAHK__46E78A0C" ManuallyRouted="false" />
+        <AssociationConnector Association="QLHSModel.FK__QUATRINHHO__MAHS__300424B4" ManuallyRouted="false" />
+        <AssociationConnector Association="QLHSModel.fk_mahs_qth" ManuallyRouted="false" />
+        <AssociationConnector Association="QLHSModel.FK__LOP__MAKHOI__2C3393D0" ManuallyRouted="false" />
+        <AssociationConnector Association="QLHSModel.FK__CT_BANGDI__MALHK__412EB0B6" ManuallyRouted="false" />
+        <AssociationConnector Association="QLHSModel.FK__QUATRINHH__MALOP__2F10007B" ManuallyRouted="false" />
+        <AssociationConnector Association="QLHSModel.FK__TONGKETHO__MALOP__3B75D760" ManuallyRouted="false" />
+        <AssociationConnector Association="QLHSModel.FK__TONGKETMO__MALOP__45F365D3" ManuallyRouted="false" />
+        <AssociationConnector Association="QLHSModel.FK__TONGKETMON__MAMH__44FF419A" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

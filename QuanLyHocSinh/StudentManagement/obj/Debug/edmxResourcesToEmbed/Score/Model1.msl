@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="QLHSModelStoreContainer" CdmEntityContainer="QLHSEntities1">
+    <EntitySetMapping Name="BANGDIEMMONs">
+      <EntityTypeMapping TypeName="QLHSModel.BANGDIEMMON">
+        <MappingFragment StoreEntitySet="BANGDIEMMON">
+          <ScalarProperty Name="MABDM" ColumnName="MABDM" />
+          <ScalarProperty Name="MAMH" ColumnName="MAMH" />
+          <ScalarProperty Name="MAQTH" ColumnName="MAQTH" />
+          <ScalarProperty Name="DIEMTRUNGBINHMON" ColumnName="DIEMTRUNGBINHMON" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CHUONGTRINHHOCs">
+      <EntityTypeMapping TypeName="QLHSModel.CHUONGTRINHHOC">
+        <MappingFragment StoreEntitySet="CHUONGTRINHHOC">
+          <ScalarProperty Name="MACTH" ColumnName="MACTH" />
+          <ScalarProperty Name="MAKHOI" ColumnName="MAKHOI" />
+          <ScalarProperty Name="MAMH" ColumnName="MAMH" />
+          <ScalarProperty Name="HESO" ColumnName="HESO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HOCKies">
+      <EntityTypeMapping TypeName="QLHSModel.HOCKY">
+        <MappingFragment StoreEntitySet="HOCKY">
+          <ScalarProperty Name="MAHK" ColumnName="MAHK" />
+          <ScalarProperty Name="TENHOCKY" ColumnName="TENHOCKY" />
+          <ScalarProperty Name="NAMHOC" ColumnName="NAMHOC" />
+          <ScalarProperty Name="HOCKY1" ColumnName="HOCKY" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HOCSINHs">
+      <EntityTypeMapping TypeName="QLHSModel.HOCSINH">
+        <MappingFragment StoreEntitySet="HOCSINH">
+          <ScalarProperty Name="MAHS" ColumnName="MAHS" />
+          <ScalarProperty Name="HO" ColumnName="HO" />
+          <ScalarProperty Name="TEN" ColumnName="TEN" />
+          <ScalarProperty Name="GIOITINH" ColumnName="GIOITINH" />
+          <ScalarProperty Name="NGSINH" ColumnName="NGSINH" />
+          <ScalarProperty Name="DIACHI" ColumnName="DIACHI" />
+          <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KHOIs">
+      <EntityTypeMapping TypeName="QLHSModel.KHOI">
+        <MappingFragment StoreEntitySet="KHOI">
+          <ScalarProperty Name="MAKHOI" ColumnName="MAKHOI" />
+          <ScalarProperty Name="TENKHOI" ColumnName="TENKHOI" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LOAIHINHKIEMTRAs">
+      <EntityTypeMapping TypeName="QLHSModel.LOAIHINHKIEMTRA">
+        <MappingFragment StoreEntitySet="LOAIHINHKIEMTRA">
+          <ScalarProperty Name="MALHKT" ColumnName="MALHKT" />
+          <ScalarProperty Name="TENLHKT" ColumnName="TENLHKT" />
+          <ScalarProperty Name="HESODIEM" ColumnName="HESODIEM" />
+          <ScalarProperty Name="THOIGIANKIEMTRA" ColumnName="THOIGIANKIEMTRA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LOPs">
+      <EntityTypeMapping TypeName="QLHSModel.LOP">
+        <MappingFragment StoreEntitySet="LOP">
+          <ScalarProperty Name="MALOP" ColumnName="MALOP" />
+          <ScalarProperty Name="TENLOP" ColumnName="TENLOP" />
+          <ScalarProperty Name="SISO" ColumnName="SISO" />
+          <ScalarProperty Name="MAKHOI" ColumnName="MAKHOI" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MONHOCs">
+      <EntityTypeMapping TypeName="QLHSModel.MONHOC">
+        <MappingFragment StoreEntitySet="MONHOC">
+          <ScalarProperty Name="MAMH" ColumnName="MAMH" />
+          <ScalarProperty Name="TENMH" ColumnName="TENMH" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="QUATRINHHOCs">
+      <EntityTypeMapping TypeName="QLHSModel.QUATRINHHOC">
+        <MappingFragment StoreEntitySet="QUATRINHHOC">
+          <ScalarProperty Name="MAQTH" ColumnName="MAQTH" />
+          <ScalarProperty Name="MALOP" ColumnName="MALOP" />
+          <ScalarProperty Name="MAHS" ColumnName="MAHS" />
+          <ScalarProperty Name="MAHK" ColumnName="MAHK" />
+          <ScalarProperty Name="DIEMTB_HOCKY" ColumnName="DIEMTB_HOCKY" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="THAMSOes">
+      <EntityTypeMapping TypeName="QLHSModel.THAMSO">
+        <MappingFragment StoreEntitySet="THAMSO">
+          <ScalarProperty Name="MATHAMSO" ColumnName="MATHAMSO" />
+          <ScalarProperty Name="TENTHAMSO" ColumnName="TENTHAMSO" />
+          <ScalarProperty Name="GIATRI" ColumnName="GIATRI" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TONGKETHOCKies">
+      <EntityTypeMapping TypeName="QLHSModel.TONGKETHOCKY">
+        <MappingFragment StoreEntitySet="TONGKETHOCKY">
+          <ScalarProperty Name="MALOP" ColumnName="MALOP" />
+          <ScalarProperty Name="MAHK" ColumnName="MAHK" />
+          <ScalarProperty Name="SOLUONGDAT" ColumnName="SOLUONGDAT" />
+          <ScalarProperty Name="TILE" ColumnName="TILE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TONGKETMONs">
+      <EntityTypeMapping TypeName="QLHSModel.TONGKETMON">
+        <MappingFragment StoreEntitySet="TONGKETMON">
+          <ScalarProperty Name="MATKM" ColumnName="MATKM" />
+          <ScalarProperty Name="MAMH" ColumnName="MAMH" />
+          <ScalarProperty Name="MALOP" ColumnName="MALOP" />
+          <ScalarProperty Name="MAHK" ColumnName="MAHK" />
+          <ScalarProperty Name="SOLUONGDAT" ColumnName="SOLUONGDAT" />
+          <ScalarProperty Name="TILE" ColumnName="TILE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CT_BANGDIEMMON">
+      <EntityTypeMapping TypeName="QLHSModel.CT_BANGDIEMMON">
+        <MappingFragment StoreEntitySet="CT_BANGDIEMMON">
+          <ScalarProperty Name="MALHKT" ColumnName="MALHKT" />
+          <ScalarProperty Name="MABDM" ColumnName="MABDM" />
+          <ScalarProperty Name="DIEM" ColumnName="DIEM" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

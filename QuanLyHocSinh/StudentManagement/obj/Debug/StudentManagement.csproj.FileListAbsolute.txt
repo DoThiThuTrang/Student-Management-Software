@@ -1,0 +1,138 @@
+C:\Users\congn\source\repos\StudentManagement\StudentManagement\bin\Debug\StudentManagement.exe.config
+C:\Users\congn\source\repos\StudentManagement\StudentManagement\bin\Debug\StudentManagement.exe
+C:\Users\congn\source\repos\StudentManagement\StudentManagement\bin\Debug\StudentManagement.pdb
+C:\Users\congn\source\repos\StudentManagement\StudentManagement\bin\Debug\Guna.UI.dll
+C:\Users\congn\source\repos\StudentManagement\StudentManagement\obj\Debug\StudentManagement.csprojAssemblyReference.cache
+C:\Users\congn\source\repos\StudentManagement\StudentManagement\obj\Debug\StudentManagement.LoginForm.resources
+C:\Users\congn\source\repos\StudentManagement\StudentManagement\obj\Debug\StudentManagement.Properties.Resources.resources
+C:\Users\congn\source\repos\StudentManagement\StudentManagement\obj\Debug\StudentManagement.csproj.GenerateResource.cache
+C:\Users\congn\source\repos\StudentManagement\StudentManagement\obj\Debug\StudentManagement.csproj.CoreCompileInputs.cache
+C:\Users\congn\source\repos\StudentManagement\StudentManagement\obj\Debug\StudentManagement.csproj.CopyComplete
+C:\Users\congn\source\repos\StudentManagement\StudentManagement\obj\Debug\StudentManagement.exe
+C:\Users\congn\source\repos\StudentManagement\StudentManagement\obj\Debug\StudentManagement.pdb
+C:\Users\congn\source\repos\QuanLyHocSinh\StudentManagement\bin\Debug\StudentManagement.exe.config
+C:\Users\congn\source\repos\QuanLyHocSinh\StudentManagement\bin\Debug\StudentManagement.exe
+C:\Users\congn\source\repos\QuanLyHocSinh\StudentManagement\bin\Debug\StudentManagement.pdb
+C:\Users\congn\source\repos\QuanLyHocSinh\StudentManagement\obj\Debug\StudentManagement.csprojAssemblyReference.cache
+C:\Users\congn\source\repos\QuanLyHocSinh\StudentManagement\obj\Debug\StudentManagement.LoginForm.resources
+C:\Users\congn\source\repos\QuanLyHocSinh\StudentManagement\obj\Debug\StudentManagement.Properties.Resources.resources
+C:\Users\congn\source\repos\QuanLyHocSinh\StudentManagement\obj\Debug\StudentManagement.csproj.GenerateResource.cache
+C:\Users\congn\source\repos\QuanLyHocSinh\StudentManagement\obj\Debug\StudentManagement.csproj.CoreCompileInputs.cache
+C:\Users\congn\source\repos\QuanLyHocSinh\StudentManagement\obj\Debug\StudentManagement.csproj.CopyComplete
+C:\Users\congn\source\repos\QuanLyHocSinh\StudentManagement\obj\Debug\StudentManagement.exe
+C:\Users\congn\source\repos\QuanLyHocSinh\StudentManagement\obj\Debug\StudentManagement.pdb
+C:\Users\congn\source\repos\QuanLyHocSinh\StudentManagement\obj\Debug\StudentManagement.MainForm1.resources
+C:\Users\congn\source\repos\QuanLyHocSinh\StudentManagement\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.dll
+C:\Users\congn\source\repos\QuanLyHocSinh\StudentManagement\bin\Debug\Bunifu.Licensing.dll
+C:\Users\congn\source\repos\QuanLyHocSinh\StudentManagement\obj\Debug\StudentManagement.exe.config
+C:\Users\congn\source\repos\QuanLyHocSinh\StudentManagement\obj\Debug\StudentManagement.exe.licenses
+C:\Users\congn\source\repos\QuanLyHocSinh\StudentManagement\obj\Debug\StudentManagement.StudentForm.resources
+C:\Users\congn\source\repos\QuanLyHocSinh\StudentManagement\obj\Debug\StudentManagement.Student.AddStudentForm.resources
+C:\Users\congn\source\repos\QuanLyHocSinh\StudentManagement\obj\Debug\StudentManagement.Student.SettingStudentForm.resources
+C:\Users\congn\source\repos\QuanLyHocSinh\StudentManagement\obj\Debug\StudentManagement.Student.SearchForm.resources
+C:\Users\congn\Desktop\New folder\New folder\SE104QuanLyHocSinh-main\QuanLyHocSinh\StudentManagement\obj\Debug\StudentManagement.exe
+C:\Users\congn\Desktop\New folder\New folder\SE104QuanLyHocSinh-main\QuanLyHocSinh\StudentManagement\obj\Debug\StudentManagement.pdb
+C:\Users\congn\Desktop\New folder\New folder\SE104QuanLyHocSinh-main\QuanLyHocSinh\StudentManagement\obj\Debug\StudentManagement.LoginForm.resources
+C:\Users\congn\Desktop\New folder\New folder\SE104QuanLyHocSinh-main\QuanLyHocSinh\StudentManagement\obj\Debug\StudentManagement.MainForm1.resources
+C:\Users\congn\Desktop\New folder\New folder\SE104QuanLyHocSinh-main\QuanLyHocSinh\StudentManagement\obj\Debug\StudentManagement.Properties.Resources.resources
+C:\Users\congn\Desktop\New folder\New folder\SE104QuanLyHocSinh-main\QuanLyHocSinh\StudentManagement\obj\Debug\StudentManagement.Student.SearchForm.resources
+C:\Users\congn\Desktop\New folder\New folder\SE104QuanLyHocSinh-main\QuanLyHocSinh\StudentManagement\obj\Debug\StudentManagement.Student.AddStudentForm.resources
+C:\Users\congn\Desktop\New folder\New folder\SE104QuanLyHocSinh-main\QuanLyHocSinh\StudentManagement\obj\Debug\StudentManagement.Semester.Setting.resources
+C:\Users\congn\Desktop\New folder\New folder\SE104QuanLyHocSinh-main\QuanLyHocSinh\StudentManagement\obj\Debug\StudentManagement.Student.SettingStudentForm.resources
+C:\Users\congn\Desktop\New folder\New folder\SE104QuanLyHocSinh-main\QuanLyHocSinh\StudentManagement\obj\Debug\StudentManagement.StudentForm.resources
+C:\Users\congn\Desktop\New folder\New folder\SE104QuanLyHocSinh-main\QuanLyHocSinh\StudentManagement\obj\Debug\StudentManagement.csproj.GenerateResource.cache
+C:\Users\congn\Desktop\New folder\New folder\SE104QuanLyHocSinh-main\QuanLyHocSinh\StudentManagement\obj\Debug\StudentManagement.exe.licenses
+C:\Users\congn\Desktop\New folder\New folder\SE104QuanLyHocSinh-main\QuanLyHocSinh\StudentManagement\obj\Debug\StudentManagement.csproj.CoreCompileInputs.cache
+C:\Users\congn\Desktop\New folder\New folder\SE104QuanLyHocSinh-main\QuanLyHocSinh\StudentManagement\bin\Debug\StudentManagement.exe.config
+C:\Users\congn\Desktop\New folder\New folder\SE104QuanLyHocSinh-main\QuanLyHocSinh\StudentManagement\bin\Debug\StudentManagement.exe
+C:\Users\congn\Desktop\New folder\New folder\SE104QuanLyHocSinh-main\QuanLyHocSinh\StudentManagement\bin\Debug\StudentManagement.pdb
+C:\Users\congn\Desktop\New folder\New folder\SE104QuanLyHocSinh-main\QuanLyHocSinh\StudentManagement\bin\Debug\Bunifu.Licensing.dll
+C:\Users\congn\Desktop\New folder\New folder\SE104QuanLyHocSinh-main\QuanLyHocSinh\StudentManagement\bin\Debug\Bunifu.UI.WinForms.1.5.3.dll
+C:\Users\congn\Desktop\New folder\New folder\SE104QuanLyHocSinh-main\QuanLyHocSinh\StudentManagement\bin\Debug\Bunifu.UI.WinForms.BunifuButton.dll
+C:\Users\congn\Desktop\New folder\New folder\SE104QuanLyHocSinh-main\QuanLyHocSinh\StudentManagement\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.dll
+C:\Users\congn\Desktop\New folder\New folder\SE104QuanLyHocSinh-main\QuanLyHocSinh\StudentManagement\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.dll
+C:\Users\congn\Desktop\New folder\New folder\SE104QuanLyHocSinh-main\QuanLyHocSinh\StudentManagement\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.dll
+C:\Users\congn\Desktop\New folder\New folder\SE104QuanLyHocSinh-main\QuanLyHocSinh\StudentManagement\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.dll
+C:\Users\congn\Desktop\New folder\New folder\SE104QuanLyHocSinh-main\QuanLyHocSinh\StudentManagement\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.dll
+C:\Users\congn\Desktop\New folder\New folder\SE104QuanLyHocSinh-main\QuanLyHocSinh\StudentManagement\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.dll
+C:\Users\congn\Desktop\New folder\New folder\SE104QuanLyHocSinh-main\QuanLyHocSinh\StudentManagement\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.dll
+C:\Users\congn\Desktop\New folder\New folder\SE104QuanLyHocSinh-main\QuanLyHocSinh\StudentManagement\bin\Debug\Bunifu.UI.WinForms.BunifuGauge.dll
+C:\Users\congn\Desktop\New folder\New folder\SE104QuanLyHocSinh-main\QuanLyHocSinh\StudentManagement\bin\Debug\Bunifu.UI.WinForms.BunifuGradientPanel.dll
+C:\Users\congn\Desktop\New folder\New folder\SE104QuanLyHocSinh-main\QuanLyHocSinh\StudentManagement\bin\Debug\Bunifu.UI.WinForms.BunifuGroupBox.dll
+C:\Users\congn\Desktop\New folder\New folder\SE104QuanLyHocSinh-main\QuanLyHocSinh\StudentManagement\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.dll
+C:\Users\congn\Desktop\New folder\New folder\SE104QuanLyHocSinh-main\QuanLyHocSinh\StudentManagement\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.dll
+C:\Users\congn\Desktop\New folder\New folder\SE104QuanLyHocSinh-main\QuanLyHocSinh\StudentManagement\bin\Debug\Bunifu.UI.WinForms.BunifuPages.dll
+C:\Users\congn\Desktop\New folder\New folder\SE104QuanLyHocSinh-main\QuanLyHocSinh\StudentManagement\bin\Debug\Bunifu.UI.WinForms.BunifuPanel.dll
+C:\Users\congn\Desktop\New folder\New folder\SE104QuanLyHocSinh-main\QuanLyHocSinh\StudentManagement\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.dll
+C:\Users\congn\Desktop\New folder\New folder\SE104QuanLyHocSinh-main\QuanLyHocSinh\StudentManagement\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.dll
+C:\Users\congn\Desktop\New folder\New folder\SE104QuanLyHocSinh-main\QuanLyHocSinh\StudentManagement\bin\Debug\Bunifu.UI.WinForms.BunifuRadioButton.dll
+C:\Users\congn\Desktop\New folder\New folder\SE104QuanLyHocSinh-main\QuanLyHocSinh\StudentManagement\bin\Debug\Bunifu.UI.WinForms.BunifuRating.dll
+C:\Users\congn\Desktop\New folder\New folder\SE104QuanLyHocSinh-main\QuanLyHocSinh\StudentManagement\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.dll
+C:\Users\congn\Desktop\New folder\New folder\SE104QuanLyHocSinh-main\QuanLyHocSinh\StudentManagement\bin\Debug\Bunifu.UI.WinForms.BunifuSeparator.dll
+C:\Users\congn\Desktop\New folder\New folder\SE104QuanLyHocSinh-main\QuanLyHocSinh\StudentManagement\bin\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.dll
+C:\Users\congn\Desktop\New folder\New folder\SE104QuanLyHocSinh-main\QuanLyHocSinh\StudentManagement\bin\Debug\Bunifu.UI.WinForms.BunifuShapes.dll
+C:\Users\congn\Desktop\New folder\New folder\SE104QuanLyHocSinh-main\QuanLyHocSinh\StudentManagement\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.dll
+C:\Users\congn\Desktop\New folder\New folder\SE104QuanLyHocSinh-main\QuanLyHocSinh\StudentManagement\bin\Debug\Bunifu.UI.WinForms.BunifuSnackbar.dll
+C:\Users\congn\Desktop\New folder\New folder\SE104QuanLyHocSinh-main\QuanLyHocSinh\StudentManagement\bin\Debug\Bunifu.UI.WinForms.BunifuTextbox.dll
+C:\Users\congn\Desktop\New folder\New folder\SE104QuanLyHocSinh-main\QuanLyHocSinh\StudentManagement\bin\Debug\Bunifu.UI.WinForms.BunifuToggleSwitch.dll
+C:\Users\congn\Desktop\New folder\New folder\SE104QuanLyHocSinh-main\QuanLyHocSinh\StudentManagement\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.dll
+C:\Users\congn\Desktop\New folder\New folder\SE104QuanLyHocSinh-main\QuanLyHocSinh\StudentManagement\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.dll
+C:\Users\congn\Desktop\New folder\New folder\SE104QuanLyHocSinh-main\QuanLyHocSinh\StudentManagement\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.dll
+C:\Users\congn\Desktop\New folder\New folder\SE104QuanLyHocSinh-main\QuanLyHocSinh\StudentManagement\bin\Debug\Bunifu.UI.WinForms.Deprecated.dll
+C:\Users\congn\Desktop\New folder\New folder\SE104QuanLyHocSinh-main\QuanLyHocSinh\StudentManagement\bin\Debug\GradientColorPicker.dll
+C:\Users\congn\Desktop\New folder\New folder\SE104QuanLyHocSinh-main\QuanLyHocSinh\StudentManagement\bin\Debug\GradientColorPicker.xml
+C:\Users\congn\Desktop\New folder\New folder\SE104QuanLyHocSinh-main\QuanLyHocSinh\StudentManagement\obj\Debug\StudentManagement.csproj.CopyComplete
+C:\Users\congn\Desktop\New folder\New folder\SE104QuanLyHocSinh-main\QuanLyHocSinh\StudentManagement\obj\Debug\StudentManagement.Subject.ScoreSubjectForm.resources
+C:\Users\congn\Desktop\New folder\New folder\SE104QuanLyHocSinh-main\QuanLyHocSinh\StudentManagement\obj\Debug\StudentManagement.csproj.AssemblyReference.cache
+C:\Users\congn\Desktop\New folder\New folder\SE104QuanLyHocSinh-main\QuanLyHocSinh\StudentManagement\bin\Debug\EntityFramework.dll
+C:\Users\congn\Desktop\New folder\New folder\SE104QuanLyHocSinh-main\QuanLyHocSinh\StudentManagement\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\congn\Desktop\New folder\New folder\SE104QuanLyHocSinh-main\QuanLyHocSinh\StudentManagement\bin\Debug\EntityFramework.xml
+C:\Users\congn\Desktop\New folder\New folder\SE104QuanLyHocSinh-main\QuanLyHocSinh\StudentManagement\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\congn\Desktop\New folder\New folder\SE104QuanLyHocSinh-main\QuanLyHocSinh\StudentManagement\obj\Debug\StudentManagement.Subject.CTHForm.resources
+C:\Users\congn\Desktop\New folder\New folder\SE104QuanLyHocSinh-main\QuanLyHocSinh\StudentManagement\obj\Debug\StudentManagement.Subject.SubjectForm.resources
+C:\Users\congn\Desktop\New folder\New folder\SE104QuanLyHocSinh-main\QuanLyHocSinh\StudentManagement\obj\Debug\StudentManagement.Subject.AddSubject.resources
+C:\Users\congn\Desktop\New folder\New folder\SE104QuanLyHocSinh-main\QuanLyHocSinh\StudentManagement\obj\Debug\StudentManagement.Subject.AddCTH.resources
+C:\Users\congn\Desktop\New folder\New folder\SE104QuanLyHocSinh-main\QuanLyHocSinh\StudentManagement\obj\Debug\StudentManagement.Semester.ReportSubject.resources
+C:\Users\congn\Desktop\New folder\New folder\SE104QuanLyHocSinh-main\QuanLyHocSinh\StudentManagement\obj\Debug\StudentManagement.Semester.ReportSemester.resources
+C:\Users\congn\Desktop\New folder\New folder\SE104QuanLyHocSinh-main\QuanLyHocSinh\StudentManagement\obj\Debug\StudentManagement.Class1.ClassForm1.resources
+C:\Users\congn\Desktop\New folder\New folder\SE104QuanLyHocSinh-main\QuanLyHocSinh\StudentManagement\obj\Debug\StudentManagement.Class1.AddClass.resources
+C:\Users\congn\Desktop\New folder\New folder\SE104QuanLyHocSinh-main\QuanLyHocSinh\StudentManagement\obj\Debug\StudentManagement.Class1.AddStudentToClass.resources
+C:\Users\congn\Desktop\New folder\New folder\SE104QuanLyHocSinh-main\QuanLyHocSinh\StudentManagement\obj\Debug\StudentManagement.Class1.StudentInClass.resources
+C:\Users\congn\Desktop\New folder\New folder\SE104QuanLyHocSinh-main\QuanLyHocSinh\StudentManagement\obj\Debug\StudentManagement.Setting.resources
+C:\Users\hoang\OneDrive\Tài liệu\Học kì 2 năm học 2021 - 2022\SE104 - Nhập môn Công nghệ phần mềm\Project\QuanLyHocSinh\StudentManagement\bin\Debug\StudentManagement.exe.config
+C:\Users\hoang\OneDrive\Tài liệu\Học kì 2 năm học 2021 - 2022\SE104 - Nhập môn Công nghệ phần mềm\Project\QuanLyHocSinh\StudentManagement\bin\Debug\StudentManagement.exe
+C:\Users\hoang\OneDrive\Tài liệu\Học kì 2 năm học 2021 - 2022\SE104 - Nhập môn Công nghệ phần mềm\Project\QuanLyHocSinh\StudentManagement\bin\Debug\StudentManagement.pdb
+C:\Users\hoang\OneDrive\Tài liệu\Học kì 2 năm học 2021 - 2022\SE104 - Nhập môn Công nghệ phần mềm\Project\QuanLyHocSinh\StudentManagement\bin\Debug\EntityFramework.dll
+C:\Users\hoang\OneDrive\Tài liệu\Học kì 2 năm học 2021 - 2022\SE104 - Nhập môn Công nghệ phần mềm\Project\QuanLyHocSinh\StudentManagement\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\hoang\OneDrive\Tài liệu\Học kì 2 năm học 2021 - 2022\SE104 - Nhập môn Công nghệ phần mềm\Project\QuanLyHocSinh\StudentManagement\bin\Debug\GradientColorPicker.dll
+C:\Users\hoang\OneDrive\Tài liệu\Học kì 2 năm học 2021 - 2022\SE104 - Nhập môn Công nghệ phần mềm\Project\QuanLyHocSinh\StudentManagement\bin\Debug\EntityFramework.xml
+C:\Users\hoang\OneDrive\Tài liệu\Học kì 2 năm học 2021 - 2022\SE104 - Nhập môn Công nghệ phần mềm\Project\QuanLyHocSinh\StudentManagement\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\hoang\OneDrive\Tài liệu\Học kì 2 năm học 2021 - 2022\SE104 - Nhập môn Công nghệ phần mềm\Project\QuanLyHocSinh\StudentManagement\bin\Debug\GradientColorPicker.xml
+C:\Users\hoang\OneDrive\Tài liệu\Học kì 2 năm học 2021 - 2022\SE104 - Nhập môn Công nghệ phần mềm\Project\QuanLyHocSinh\StudentManagement\obj\Debug\StudentManagement.csproj.AssemblyReference.cache
+C:\Users\hoang\OneDrive\Tài liệu\Học kì 2 năm học 2021 - 2022\SE104 - Nhập môn Công nghệ phần mềm\Project\QuanLyHocSinh\StudentManagement\obj\Debug\StudentManagement.csproj.SuggestedBindingRedirects.cache
+C:\Users\hoang\OneDrive\Tài liệu\Học kì 2 năm học 2021 - 2022\SE104 - Nhập môn Công nghệ phần mềm\Project\QuanLyHocSinh\StudentManagement\obj\Debug\StudentManagement.Class1.AddClass.resources
+C:\Users\hoang\OneDrive\Tài liệu\Học kì 2 năm học 2021 - 2022\SE104 - Nhập môn Công nghệ phần mềm\Project\QuanLyHocSinh\StudentManagement\obj\Debug\StudentManagement.Class1.AddStudentToClass.resources
+C:\Users\hoang\OneDrive\Tài liệu\Học kì 2 năm học 2021 - 2022\SE104 - Nhập môn Công nghệ phần mềm\Project\QuanLyHocSinh\StudentManagement\obj\Debug\StudentManagement.Class1.ClassForm1.resources
+C:\Users\hoang\OneDrive\Tài liệu\Học kì 2 năm học 2021 - 2022\SE104 - Nhập môn Công nghệ phần mềm\Project\QuanLyHocSinh\StudentManagement\obj\Debug\StudentManagement.Setting.resources
+C:\Users\hoang\OneDrive\Tài liệu\Học kì 2 năm học 2021 - 2022\SE104 - Nhập môn Công nghệ phần mềm\Project\QuanLyHocSinh\StudentManagement\obj\Debug\StudentManagement.Class1.StudentInClass.resources
+C:\Users\hoang\OneDrive\Tài liệu\Học kì 2 năm học 2021 - 2022\SE104 - Nhập môn Công nghệ phần mềm\Project\QuanLyHocSinh\StudentManagement\obj\Debug\StudentManagement.LoginForm.resources
+C:\Users\hoang\OneDrive\Tài liệu\Học kì 2 năm học 2021 - 2022\SE104 - Nhập môn Công nghệ phần mềm\Project\QuanLyHocSinh\StudentManagement\obj\Debug\StudentManagement.MainForm1.resources
+C:\Users\hoang\OneDrive\Tài liệu\Học kì 2 năm học 2021 - 2022\SE104 - Nhập môn Công nghệ phần mềm\Project\QuanLyHocSinh\StudentManagement\obj\Debug\StudentManagement.Properties.Resources.resources
+C:\Users\hoang\OneDrive\Tài liệu\Học kì 2 năm học 2021 - 2022\SE104 - Nhập môn Công nghệ phần mềm\Project\QuanLyHocSinh\StudentManagement\obj\Debug\StudentManagement.Semester.ReportSemester.resources
+C:\Users\hoang\OneDrive\Tài liệu\Học kì 2 năm học 2021 - 2022\SE104 - Nhập môn Công nghệ phần mềm\Project\QuanLyHocSinh\StudentManagement\obj\Debug\StudentManagement.Semester.ReportSubject.resources
+C:\Users\hoang\OneDrive\Tài liệu\Học kì 2 năm học 2021 - 2022\SE104 - Nhập môn Công nghệ phần mềm\Project\QuanLyHocSinh\StudentManagement\obj\Debug\StudentManagement.Student.AddStudentForm.resources
+C:\Users\hoang\OneDrive\Tài liệu\Học kì 2 năm học 2021 - 2022\SE104 - Nhập môn Công nghệ phần mềm\Project\QuanLyHocSinh\StudentManagement\obj\Debug\StudentManagement.Semester.Setting.resources
+C:\Users\hoang\OneDrive\Tài liệu\Học kì 2 năm học 2021 - 2022\SE104 - Nhập môn Công nghệ phần mềm\Project\QuanLyHocSinh\StudentManagement\obj\Debug\StudentManagement.Student.SearchForm.resources
+C:\Users\hoang\OneDrive\Tài liệu\Học kì 2 năm học 2021 - 2022\SE104 - Nhập môn Công nghệ phần mềm\Project\QuanLyHocSinh\StudentManagement\obj\Debug\StudentManagement.Student.SettingStudentForm.resources
+C:\Users\hoang\OneDrive\Tài liệu\Học kì 2 năm học 2021 - 2022\SE104 - Nhập môn Công nghệ phần mềm\Project\QuanLyHocSinh\StudentManagement\obj\Debug\StudentManagement.StudentForm.resources
+C:\Users\hoang\OneDrive\Tài liệu\Học kì 2 năm học 2021 - 2022\SE104 - Nhập môn Công nghệ phần mềm\Project\QuanLyHocSinh\StudentManagement\obj\Debug\StudentManagement.Subject.ScoreSubjectForm.resources
+C:\Users\hoang\OneDrive\Tài liệu\Học kì 2 năm học 2021 - 2022\SE104 - Nhập môn Công nghệ phần mềm\Project\QuanLyHocSinh\StudentManagement\obj\Debug\StudentManagement.Subject.AddCTH.resources
+C:\Users\hoang\OneDrive\Tài liệu\Học kì 2 năm học 2021 - 2022\SE104 - Nhập môn Công nghệ phần mềm\Project\QuanLyHocSinh\StudentManagement\obj\Debug\StudentManagement.Subject.AddSubject.resources
+C:\Users\hoang\OneDrive\Tài liệu\Học kì 2 năm học 2021 - 2022\SE104 - Nhập môn Công nghệ phần mềm\Project\QuanLyHocSinh\StudentManagement\obj\Debug\StudentManagement.Subject.CTHForm.resources
+C:\Users\hoang\OneDrive\Tài liệu\Học kì 2 năm học 2021 - 2022\SE104 - Nhập môn Công nghệ phần mềm\Project\QuanLyHocSinh\StudentManagement\obj\Debug\StudentManagement.Subject.SubjectForm.resources
+C:\Users\hoang\OneDrive\Tài liệu\Học kì 2 năm học 2021 - 2022\SE104 - Nhập môn Công nghệ phần mềm\Project\QuanLyHocSinh\StudentManagement\obj\Debug\StudentManagement.csproj.GenerateResource.cache
+C:\Users\hoang\OneDrive\Tài liệu\Học kì 2 năm học 2021 - 2022\SE104 - Nhập môn Công nghệ phần mềm\Project\QuanLyHocSinh\StudentManagement\obj\Debug\StudentManagement.exe.licenses
+C:\Users\hoang\OneDrive\Tài liệu\Học kì 2 năm học 2021 - 2022\SE104 - Nhập môn Công nghệ phần mềm\Project\QuanLyHocSinh\StudentManagement\obj\Debug\StudentManagement.csproj.CoreCompileInputs.cache
+C:\Users\hoang\OneDrive\Tài liệu\Học kì 2 năm học 2021 - 2022\SE104 - Nhập môn Công nghệ phần mềm\Project\QuanLyHocSinh\StudentManagement\obj\Debug\StudentManagement.csproj.CopyComplete
+C:\Users\hoang\OneDrive\Tài liệu\Học kì 2 năm học 2021 - 2022\SE104 - Nhập môn Công nghệ phần mềm\Project\QuanLyHocSinh\StudentManagement\obj\Debug\StudentManagement.exe
+C:\Users\hoang\OneDrive\Tài liệu\Học kì 2 năm học 2021 - 2022\SE104 - Nhập môn Công nghệ phần mềm\Project\QuanLyHocSinh\StudentManagement\obj\Debug\StudentManagement.pdb

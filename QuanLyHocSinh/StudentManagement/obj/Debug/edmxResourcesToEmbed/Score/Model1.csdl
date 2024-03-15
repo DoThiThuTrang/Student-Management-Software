@@ -1,0 +1,467 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QLHSModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="BANGDIEMMON">
+    <Key>
+      <PropertyRef Name="MABDM" />
+    </Key>
+    <Property Name="MABDM" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MAMH" Type="Int32" />
+    <Property Name="MAQTH" Type="Int32" />
+    <Property Name="DIEMTRUNGBINHMON" Type="Double" />
+    <NavigationProperty Name="QUATRINHHOC" Relationship="Self.FK__BANGDIEMM__MAQTH__38996AB5" FromRole="BANGDIEMMON" ToRole="QUATRINHHOC" />
+    <NavigationProperty Name="MONHOC" Relationship="Self.FK__BANGDIEMMO__MAMH__37A5467C" FromRole="BANGDIEMMON" ToRole="MONHOC" />
+    <NavigationProperty Name="CT_BANGDIEMMON" Relationship="Self.FK__CT_BANGDI__MABDM__4222D4EF" FromRole="BANGDIEMMON" ToRole="CT_BANGDIEMMON" />
+    <NavigationProperty Name="CT_BANGDIEMMON1" Relationship="Self.fk_mabdm_ctbdm" FromRole="BANGDIEMMON" ToRole="CT_BANGDIEMMON" />
+    <NavigationProperty Name="QUATRINHHOC1" Relationship="Self.fk_maqth_bdm" FromRole="BANGDIEMMON" ToRole="QUATRINHHOC" />
+  </EntityType>
+  <EntityType Name="CHUONGTRINHHOC">
+    <Key>
+      <PropertyRef Name="MACTH" />
+    </Key>
+    <Property Name="MACTH" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MAKHOI" Type="Int32" />
+    <Property Name="MAMH" Type="Int32" />
+    <Property Name="HESO" Type="Double" />
+    <NavigationProperty Name="KHOI" Relationship="Self.FK__CHUONGTRI__MAKHO__33D4B598" FromRole="CHUONGTRINHHOC" ToRole="KHOI" />
+    <NavigationProperty Name="MONHOC" Relationship="Self.FK__CHUONGTRIN__MAMH__34C8D9D1" FromRole="CHUONGTRINHHOC" ToRole="MONHOC" />
+  </EntityType>
+  <EntityType Name="HOCKY">
+    <Key>
+      <PropertyRef Name="MAHK" />
+    </Key>
+    <Property Name="MAHK" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TENHOCKY" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="NAMHOC" Type="Int32" />
+    <Property Name="HOCKY1" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="QUATRINHHOCs" Relationship="Self.FK__QUATRINHHO__MAHK__30F848ED" FromRole="HOCKY" ToRole="QUATRINHHOC" />
+    <NavigationProperty Name="TONGKETHOCKies" Relationship="Self.FK__TONGKETHOC__MAHK__3C69FB99" FromRole="HOCKY" ToRole="TONGKETHOCKY" />
+    <NavigationProperty Name="TONGKETMONs" Relationship="Self.FK__TONGKETMON__MAHK__46E78A0C" FromRole="HOCKY" ToRole="TONGKETMON" />
+  </EntityType>
+  <EntityType Name="HOCSINH">
+    <Key>
+      <PropertyRef Name="MAHS" />
+    </Key>
+    <Property Name="MAHS" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="HO" Type="String" MaxLength="40" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="TEN" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="GIOITINH" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="NGSINH" Type="DateTime" Precision="0" />
+    <Property Name="DIACHI" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="EMAIL" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="QUATRINHHOCs" Relationship="Self.FK__QUATRINHHO__MAHS__300424B4" FromRole="HOCSINH" ToRole="QUATRINHHOC" />
+    <NavigationProperty Name="QUATRINHHOCs1" Relationship="Self.fk_mahs_qth" FromRole="HOCSINH" ToRole="QUATRINHHOC" />
+  </EntityType>
+  <EntityType Name="KHOI">
+    <Key>
+      <PropertyRef Name="MAKHOI" />
+    </Key>
+    <Property Name="MAKHOI" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TENKHOI" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="CHUONGTRINHHOCs" Relationship="Self.FK__CHUONGTRI__MAKHO__33D4B598" FromRole="KHOI" ToRole="CHUONGTRINHHOC" />
+    <NavigationProperty Name="LOPs" Relationship="Self.FK__LOP__MAKHOI__2C3393D0" FromRole="KHOI" ToRole="LOP" />
+  </EntityType>
+  <EntityType Name="LOAIHINHKIEMTRA">
+    <Key>
+      <PropertyRef Name="MALHKT" />
+    </Key>
+    <Property Name="MALHKT" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TENLHKT" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="HESODIEM" Type="Double" />
+    <Property Name="THOIGIANKIEMTRA" Type="Int32" />
+    <NavigationProperty Name="CT_BANGDIEMMON" Relationship="Self.FK__CT_BANGDI__MALHK__412EB0B6" FromRole="LOAIHINHKIEMTRA" ToRole="CT_BANGDIEMMON" />
+  </EntityType>
+  <EntityType Name="LOP">
+    <Key>
+      <PropertyRef Name="MALOP" />
+    </Key>
+    <Property Name="MALOP" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TENLOP" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="SISO" Type="Int32" />
+    <Property Name="MAKHOI" Type="Int32" />
+    <NavigationProperty Name="KHOI" Relationship="Self.FK__LOP__MAKHOI__2C3393D0" FromRole="LOP" ToRole="KHOI" />
+    <NavigationProperty Name="QUATRINHHOCs" Relationship="Self.FK__QUATRINHH__MALOP__2F10007B" FromRole="LOP" ToRole="QUATRINHHOC" />
+    <NavigationProperty Name="TONGKETHOCKies" Relationship="Self.FK__TONGKETHO__MALOP__3B75D760" FromRole="LOP" ToRole="TONGKETHOCKY" />
+    <NavigationProperty Name="TONGKETMONs" Relationship="Self.FK__TONGKETMO__MALOP__45F365D3" FromRole="LOP" ToRole="TONGKETMON" />
+  </EntityType>
+  <EntityType Name="MONHOC">
+    <Key>
+      <PropertyRef Name="MAMH" />
+    </Key>
+    <Property Name="MAMH" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TENMH" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="BANGDIEMMONs" Relationship="Self.FK__BANGDIEMMO__MAMH__37A5467C" FromRole="MONHOC" ToRole="BANGDIEMMON" />
+    <NavigationProperty Name="CHUONGTRINHHOCs" Relationship="Self.FK__CHUONGTRIN__MAMH__34C8D9D1" FromRole="MONHOC" ToRole="CHUONGTRINHHOC" />
+    <NavigationProperty Name="TONGKETMONs" Relationship="Self.FK__TONGKETMON__MAMH__44FF419A" FromRole="MONHOC" ToRole="TONGKETMON" />
+  </EntityType>
+  <EntityType Name="QUATRINHHOC">
+    <Key>
+      <PropertyRef Name="MAQTH" />
+    </Key>
+    <Property Name="MAQTH" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MALOP" Type="Int32" />
+    <Property Name="MAHS" Type="Int32" />
+    <Property Name="MAHK" Type="Int32" />
+    <Property Name="DIEMTB_HOCKY" Type="Double" />
+    <NavigationProperty Name="BANGDIEMMONs" Relationship="Self.FK__BANGDIEMM__MAQTH__38996AB5" FromRole="QUATRINHHOC" ToRole="BANGDIEMMON" />
+    <NavigationProperty Name="BANGDIEMMONs1" Relationship="Self.fk_maqth_bdm" FromRole="QUATRINHHOC" ToRole="BANGDIEMMON" />
+    <NavigationProperty Name="HOCKY" Relationship="Self.FK__QUATRINHHO__MAHK__30F848ED" FromRole="QUATRINHHOC" ToRole="HOCKY" />
+    <NavigationProperty Name="HOCSINH" Relationship="Self.FK__QUATRINHHO__MAHS__300424B4" FromRole="QUATRINHHOC" ToRole="HOCSINH" />
+    <NavigationProperty Name="HOCSINH1" Relationship="Self.fk_mahs_qth" FromRole="QUATRINHHOC" ToRole="HOCSINH" />
+    <NavigationProperty Name="LOP" Relationship="Self.FK__QUATRINHH__MALOP__2F10007B" FromRole="QUATRINHHOC" ToRole="LOP" />
+  </EntityType>
+  <EntityType Name="THAMSO">
+    <Key>
+      <PropertyRef Name="MATHAMSO" />
+    </Key>
+    <Property Name="MATHAMSO" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TENTHAMSO" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="GIATRI" Type="Double" />
+  </EntityType>
+  <EntityType Name="TONGKETHOCKY">
+    <Key>
+      <PropertyRef Name="MALOP" />
+      <PropertyRef Name="MAHK" />
+    </Key>
+    <Property Name="MALOP" Type="Int32" Nullable="false" />
+    <Property Name="MAHK" Type="Int32" Nullable="false" />
+    <Property Name="SOLUONGDAT" Type="Int32" />
+    <Property Name="TILE" Type="Double" />
+    <NavigationProperty Name="HOCKY" Relationship="Self.FK__TONGKETHOC__MAHK__3C69FB99" FromRole="TONGKETHOCKY" ToRole="HOCKY" />
+    <NavigationProperty Name="LOP" Relationship="Self.FK__TONGKETHO__MALOP__3B75D760" FromRole="TONGKETHOCKY" ToRole="LOP" />
+  </EntityType>
+  <EntityType Name="TONGKETMON">
+    <Key>
+      <PropertyRef Name="MATKM" />
+    </Key>
+    <Property Name="MATKM" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MAMH" Type="Int32" />
+    <Property Name="MALOP" Type="Int32" />
+    <Property Name="MAHK" Type="Int32" />
+    <Property Name="SOLUONGDAT" Type="Int32" />
+    <Property Name="TILE" Type="Double" />
+    <NavigationProperty Name="HOCKY" Relationship="Self.FK__TONGKETMON__MAHK__46E78A0C" FromRole="TONGKETMON" ToRole="HOCKY" />
+    <NavigationProperty Name="LOP" Relationship="Self.FK__TONGKETMO__MALOP__45F365D3" FromRole="TONGKETMON" ToRole="LOP" />
+    <NavigationProperty Name="MONHOC" Relationship="Self.FK__TONGKETMON__MAMH__44FF419A" FromRole="TONGKETMON" ToRole="MONHOC" />
+  </EntityType>
+  <EntityType Name="CT_BANGDIEMMON">
+    <Key>
+      <PropertyRef Name="MALHKT" />
+      <PropertyRef Name="MABDM" />
+    </Key>
+    <Property Name="MALHKT" Type="Int32" Nullable="false" />
+    <Property Name="MABDM" Type="Int32" Nullable="false" />
+    <Property Name="DIEM" Type="Double" />
+    <NavigationProperty Name="BANGDIEMMON" Relationship="Self.FK__CT_BANGDI__MABDM__4222D4EF" FromRole="CT_BANGDIEMMON" ToRole="BANGDIEMMON" />
+    <NavigationProperty Name="BANGDIEMMON1" Relationship="Self.fk_mabdm_ctbdm" FromRole="CT_BANGDIEMMON" ToRole="BANGDIEMMON" />
+    <NavigationProperty Name="LOAIHINHKIEMTRA" Relationship="Self.FK__CT_BANGDI__MALHK__412EB0B6" FromRole="CT_BANGDIEMMON" ToRole="LOAIHINHKIEMTRA" />
+  </EntityType>
+  <Association Name="FK__BANGDIEMM__MAQTH__38996AB5">
+    <End Role="QUATRINHHOC" Type="Self.QUATRINHHOC" Multiplicity="0..1" />
+    <End Role="BANGDIEMMON" Type="Self.BANGDIEMMON" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="QUATRINHHOC">
+        <PropertyRef Name="MAQTH" />
+      </Principal>
+      <Dependent Role="BANGDIEMMON">
+        <PropertyRef Name="MAQTH" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__BANGDIEMMO__MAMH__37A5467C">
+    <End Role="MONHOC" Type="Self.MONHOC" Multiplicity="0..1" />
+    <End Role="BANGDIEMMON" Type="Self.BANGDIEMMON" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MONHOC">
+        <PropertyRef Name="MAMH" />
+      </Principal>
+      <Dependent Role="BANGDIEMMON">
+        <PropertyRef Name="MAMH" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__CT_BANGDI__MABDM__4222D4EF">
+    <End Role="BANGDIEMMON" Type="Self.BANGDIEMMON" Multiplicity="1" />
+    <End Role="CT_BANGDIEMMON" Type="Self.CT_BANGDIEMMON" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BANGDIEMMON">
+        <PropertyRef Name="MABDM" />
+      </Principal>
+      <Dependent Role="CT_BANGDIEMMON">
+        <PropertyRef Name="MABDM" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_mabdm_ctbdm">
+    <End Role="BANGDIEMMON" Type="Self.BANGDIEMMON" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="CT_BANGDIEMMON" Type="Self.CT_BANGDIEMMON" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BANGDIEMMON">
+        <PropertyRef Name="MABDM" />
+      </Principal>
+      <Dependent Role="CT_BANGDIEMMON">
+        <PropertyRef Name="MABDM" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_maqth_bdm">
+    <End Role="QUATRINHHOC" Type="Self.QUATRINHHOC" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="BANGDIEMMON" Type="Self.BANGDIEMMON" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="QUATRINHHOC">
+        <PropertyRef Name="MAQTH" />
+      </Principal>
+      <Dependent Role="BANGDIEMMON">
+        <PropertyRef Name="MAQTH" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__CHUONGTRI__MAKHO__33D4B598">
+    <End Role="KHOI" Type="Self.KHOI" Multiplicity="0..1" />
+    <End Role="CHUONGTRINHHOC" Type="Self.CHUONGTRINHHOC" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KHOI">
+        <PropertyRef Name="MAKHOI" />
+      </Principal>
+      <Dependent Role="CHUONGTRINHHOC">
+        <PropertyRef Name="MAKHOI" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__CHUONGTRIN__MAMH__34C8D9D1">
+    <End Role="MONHOC" Type="Self.MONHOC" Multiplicity="0..1" />
+    <End Role="CHUONGTRINHHOC" Type="Self.CHUONGTRINHHOC" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MONHOC">
+        <PropertyRef Name="MAMH" />
+      </Principal>
+      <Dependent Role="CHUONGTRINHHOC">
+        <PropertyRef Name="MAMH" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__QUATRINHHO__MAHK__30F848ED">
+    <End Role="HOCKY" Type="Self.HOCKY" Multiplicity="0..1" />
+    <End Role="QUATRINHHOC" Type="Self.QUATRINHHOC" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HOCKY">
+        <PropertyRef Name="MAHK" />
+      </Principal>
+      <Dependent Role="QUATRINHHOC">
+        <PropertyRef Name="MAHK" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__TONGKETHOC__MAHK__3C69FB99">
+    <End Role="HOCKY" Type="Self.HOCKY" Multiplicity="1" />
+    <End Role="TONGKETHOCKY" Type="Self.TONGKETHOCKY" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HOCKY">
+        <PropertyRef Name="MAHK" />
+      </Principal>
+      <Dependent Role="TONGKETHOCKY">
+        <PropertyRef Name="MAHK" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__TONGKETMON__MAHK__46E78A0C">
+    <End Role="HOCKY" Type="Self.HOCKY" Multiplicity="0..1" />
+    <End Role="TONGKETMON" Type="Self.TONGKETMON" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HOCKY">
+        <PropertyRef Name="MAHK" />
+      </Principal>
+      <Dependent Role="TONGKETMON">
+        <PropertyRef Name="MAHK" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__QUATRINHHO__MAHS__300424B4">
+    <End Role="HOCSINH" Type="Self.HOCSINH" Multiplicity="0..1" />
+    <End Role="QUATRINHHOC" Type="Self.QUATRINHHOC" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HOCSINH">
+        <PropertyRef Name="MAHS" />
+      </Principal>
+      <Dependent Role="QUATRINHHOC">
+        <PropertyRef Name="MAHS" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_mahs_qth">
+    <End Role="HOCSINH" Type="Self.HOCSINH" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="QUATRINHHOC" Type="Self.QUATRINHHOC" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HOCSINH">
+        <PropertyRef Name="MAHS" />
+      </Principal>
+      <Dependent Role="QUATRINHHOC">
+        <PropertyRef Name="MAHS" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__LOP__MAKHOI__2C3393D0">
+    <End Role="KHOI" Type="Self.KHOI" Multiplicity="0..1" />
+    <End Role="LOP" Type="Self.LOP" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KHOI">
+        <PropertyRef Name="MAKHOI" />
+      </Principal>
+      <Dependent Role="LOP">
+        <PropertyRef Name="MAKHOI" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__CT_BANGDI__MALHK__412EB0B6">
+    <End Role="LOAIHINHKIEMTRA" Type="Self.LOAIHINHKIEMTRA" Multiplicity="1" />
+    <End Role="CT_BANGDIEMMON" Type="Self.CT_BANGDIEMMON" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LOAIHINHKIEMTRA">
+        <PropertyRef Name="MALHKT" />
+      </Principal>
+      <Dependent Role="CT_BANGDIEMMON">
+        <PropertyRef Name="MALHKT" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__QUATRINHH__MALOP__2F10007B">
+    <End Role="LOP" Type="Self.LOP" Multiplicity="0..1" />
+    <End Role="QUATRINHHOC" Type="Self.QUATRINHHOC" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LOP">
+        <PropertyRef Name="MALOP" />
+      </Principal>
+      <Dependent Role="QUATRINHHOC">
+        <PropertyRef Name="MALOP" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__TONGKETHO__MALOP__3B75D760">
+    <End Role="LOP" Type="Self.LOP" Multiplicity="1" />
+    <End Role="TONGKETHOCKY" Type="Self.TONGKETHOCKY" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LOP">
+        <PropertyRef Name="MALOP" />
+      </Principal>
+      <Dependent Role="TONGKETHOCKY">
+        <PropertyRef Name="MALOP" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__TONGKETMO__MALOP__45F365D3">
+    <End Role="LOP" Type="Self.LOP" Multiplicity="0..1" />
+    <End Role="TONGKETMON" Type="Self.TONGKETMON" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LOP">
+        <PropertyRef Name="MALOP" />
+      </Principal>
+      <Dependent Role="TONGKETMON">
+        <PropertyRef Name="MALOP" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__TONGKETMON__MAMH__44FF419A">
+    <End Role="MONHOC" Type="Self.MONHOC" Multiplicity="0..1" />
+    <End Role="TONGKETMON" Type="Self.TONGKETMON" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MONHOC">
+        <PropertyRef Name="MAMH" />
+      </Principal>
+      <Dependent Role="TONGKETMON">
+        <PropertyRef Name="MAMH" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="QLHSEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="BANGDIEMMONs" EntityType="Self.BANGDIEMMON" />
+    <EntitySet Name="CHUONGTRINHHOCs" EntityType="Self.CHUONGTRINHHOC" />
+    <EntitySet Name="HOCKies" EntityType="Self.HOCKY" />
+    <EntitySet Name="HOCSINHs" EntityType="Self.HOCSINH" />
+    <EntitySet Name="KHOIs" EntityType="Self.KHOI" />
+    <EntitySet Name="LOAIHINHKIEMTRAs" EntityType="Self.LOAIHINHKIEMTRA" />
+    <EntitySet Name="LOPs" EntityType="Self.LOP" />
+    <EntitySet Name="MONHOCs" EntityType="Self.MONHOC" />
+    <EntitySet Name="QUATRINHHOCs" EntityType="Self.QUATRINHHOC" />
+    <EntitySet Name="THAMSOes" EntityType="Self.THAMSO" />
+    <EntitySet Name="TONGKETHOCKies" EntityType="Self.TONGKETHOCKY" />
+    <EntitySet Name="TONGKETMONs" EntityType="Self.TONGKETMON" />
+    <EntitySet Name="CT_BANGDIEMMON" EntityType="Self.CT_BANGDIEMMON" />
+    <AssociationSet Name="FK__BANGDIEMM__MAQTH__38996AB5" Association="Self.FK__BANGDIEMM__MAQTH__38996AB5">
+      <End Role="QUATRINHHOC" EntitySet="QUATRINHHOCs" />
+      <End Role="BANGDIEMMON" EntitySet="BANGDIEMMONs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__BANGDIEMMO__MAMH__37A5467C" Association="Self.FK__BANGDIEMMO__MAMH__37A5467C">
+      <End Role="MONHOC" EntitySet="MONHOCs" />
+      <End Role="BANGDIEMMON" EntitySet="BANGDIEMMONs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__CT_BANGDI__MABDM__4222D4EF" Association="Self.FK__CT_BANGDI__MABDM__4222D4EF">
+      <End Role="BANGDIEMMON" EntitySet="BANGDIEMMONs" />
+      <End Role="CT_BANGDIEMMON" EntitySet="CT_BANGDIEMMON" />
+    </AssociationSet>
+    <AssociationSet Name="fk_mabdm_ctbdm" Association="Self.fk_mabdm_ctbdm">
+      <End Role="BANGDIEMMON" EntitySet="BANGDIEMMONs" />
+      <End Role="CT_BANGDIEMMON" EntitySet="CT_BANGDIEMMON" />
+    </AssociationSet>
+    <AssociationSet Name="fk_maqth_bdm" Association="Self.fk_maqth_bdm">
+      <End Role="QUATRINHHOC" EntitySet="QUATRINHHOCs" />
+      <End Role="BANGDIEMMON" EntitySet="BANGDIEMMONs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__CHUONGTRI__MAKHO__33D4B598" Association="Self.FK__CHUONGTRI__MAKHO__33D4B598">
+      <End Role="KHOI" EntitySet="KHOIs" />
+      <End Role="CHUONGTRINHHOC" EntitySet="CHUONGTRINHHOCs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__CHUONGTRIN__MAMH__34C8D9D1" Association="Self.FK__CHUONGTRIN__MAMH__34C8D9D1">
+      <End Role="MONHOC" EntitySet="MONHOCs" />
+      <End Role="CHUONGTRINHHOC" EntitySet="CHUONGTRINHHOCs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__QUATRINHHO__MAHK__30F848ED" Association="Self.FK__QUATRINHHO__MAHK__30F848ED">
+      <End Role="HOCKY" EntitySet="HOCKies" />
+      <End Role="QUATRINHHOC" EntitySet="QUATRINHHOCs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__TONGKETHOC__MAHK__3C69FB99" Association="Self.FK__TONGKETHOC__MAHK__3C69FB99">
+      <End Role="HOCKY" EntitySet="HOCKies" />
+      <End Role="TONGKETHOCKY" EntitySet="TONGKETHOCKies" />
+    </AssociationSet>
+    <AssociationSet Name="FK__TONGKETMON__MAHK__46E78A0C" Association="Self.FK__TONGKETMON__MAHK__46E78A0C">
+      <End Role="HOCKY" EntitySet="HOCKies" />
+      <End Role="TONGKETMON" EntitySet="TONGKETMONs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__QUATRINHHO__MAHS__300424B4" Association="Self.FK__QUATRINHHO__MAHS__300424B4">
+      <End Role="HOCSINH" EntitySet="HOCSINHs" />
+      <End Role="QUATRINHHOC" EntitySet="QUATRINHHOCs" />
+    </AssociationSet>
+    <AssociationSet Name="fk_mahs_qth" Association="Self.fk_mahs_qth">
+      <End Role="HOCSINH" EntitySet="HOCSINHs" />
+      <End Role="QUATRINHHOC" EntitySet="QUATRINHHOCs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__LOP__MAKHOI__2C3393D0" Association="Self.FK__LOP__MAKHOI__2C3393D0">
+      <End Role="KHOI" EntitySet="KHOIs" />
+      <End Role="LOP" EntitySet="LOPs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__CT_BANGDI__MALHK__412EB0B6" Association="Self.FK__CT_BANGDI__MALHK__412EB0B6">
+      <End Role="LOAIHINHKIEMTRA" EntitySet="LOAIHINHKIEMTRAs" />
+      <End Role="CT_BANGDIEMMON" EntitySet="CT_BANGDIEMMON" />
+    </AssociationSet>
+    <AssociationSet Name="FK__QUATRINHH__MALOP__2F10007B" Association="Self.FK__QUATRINHH__MALOP__2F10007B">
+      <End Role="LOP" EntitySet="LOPs" />
+      <End Role="QUATRINHHOC" EntitySet="QUATRINHHOCs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__TONGKETHO__MALOP__3B75D760" Association="Self.FK__TONGKETHO__MALOP__3B75D760">
+      <End Role="LOP" EntitySet="LOPs" />
+      <End Role="TONGKETHOCKY" EntitySet="TONGKETHOCKies" />
+    </AssociationSet>
+    <AssociationSet Name="FK__TONGKETMO__MALOP__45F365D3" Association="Self.FK__TONGKETMO__MALOP__45F365D3">
+      <End Role="LOP" EntitySet="LOPs" />
+      <End Role="TONGKETMON" EntitySet="TONGKETMONs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__TONGKETMON__MAMH__44FF419A" Association="Self.FK__TONGKETMON__MAMH__44FF419A">
+      <End Role="MONHOC" EntitySet="MONHOCs" />
+      <End Role="TONGKETMON" EntitySet="TONGKETMONs" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
