@@ -13,7 +13,6 @@
 * [Giới thiệu môn học](#giới-thiệu-môn-học)
 * [Thông tin đồ án](#thông-tin-đồ-án)
 * [Các bước cần thiết](#các-bước-cần-thiết)
-* [Sử dụng](#sử-dụng)
   
 # [GIỚI THIỆU MÔN HỌC](#top)
 * **Tên môn học:** Nhập môn công nghệ phần mềm - Introduction to Software Engineering
@@ -123,4 +122,3 @@ Danh sách chi tiết các màn hình:
 | 16  | Semester statistics report Screen | Báo cáo | Trình bày số lượng và tỷ lệ học sinh qua môn của các lớp trong học kỳ tương ứng |
 | 17  | Semester passing score change Screen | Màn hình nhập liệu | Thay đổi về quy định về mốc điểm đậu|
 
-# [SỬ DỤNG](#top)
